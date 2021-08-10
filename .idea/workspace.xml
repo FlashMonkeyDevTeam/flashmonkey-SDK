@@ -13,12 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1863d91f-0da9-467b-b2bd-446c55156f07" name="Default Changelist" comment="Initial Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datastructures/TypeInterfaceTesterNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/TypeInterfaceTesterNode.java" afterDir="false" />
-    </list>
+    <list default="true" id="1863d91f-0da9-467b-b2bd-446c55156f07" name="Default Changelist" comment="Provided changes to the license and other minor corrections" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -584,7 +579,7 @@
       <workItem from="1628222269914" duration="2634000" />
       <workItem from="1628232774607" duration="6870000" />
       <workItem from="1628568192069" duration="1803000" />
-      <workItem from="1628605755223" duration="5128000" />
+      <workItem from="1628605755223" duration="5478000" />
     </task>
     <task id="LOCAL-00001" summary="Creating deck search, &amp; several bug fixes">
       <created>1597019756650</created>
@@ -817,7 +812,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628570019796</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Provided changes to the license and other minor corrections">
+      <created>1628611216338</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1628611216338</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -841,7 +843,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Added ability for ComboBoxAutoComplete to use Strings derived from DataBase." />
     <MESSAGE value="Fixed Forms API bug on backspace and delete." />
     <MESSAGE value="Working on security and link ambiguation. Downloading completed" />
     <MESSAGE value="Completed Security and link ambiguation. uploading completed, downloading completed" />
@@ -866,7 +867,8 @@
     <MESSAGE value="Sign-in capabilities updated." />
     <MESSAGE value="Color changes to buttons" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Provided changes to the license and other minor corrections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Provided changes to the license and other minor corrections" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
