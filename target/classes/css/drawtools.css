@@ -1,0 +1,31 @@
+/* FONTS */
+.text-area {
+
+    -fx-background-insets: 2, 2, 2, 2;
+    -fx-background-color: transparent, transparent, transparent, transparent;
+    -fx-background-radius: 0, 0, 0, 0;
+
+    /*-fx-box-border: none; */
+    /* -fx-background-color: transparent, white, transparent, white; */
+    /*-fx-faint-focus-color: -fx-control-inner-background;*/
+    /*-fx-text-box-border: -fx-control-inner-background; */
+    -fx-border-width: 2;
+}
+
+/*
+ * controls the editable
+ * text-area background in
+ * flash monkey main GUI.
+ * Only respects colors in hex
+ */
+.text-area .content {
+    -fx-background-color: #ececec;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-border-width: 2;
+}
+
+#buttonBox {
+    -fx-background-color: BUTTON_PURPLE; /* FM Red #FC3C3C */
+    /*-fx-background-color: FLASH_RED; *//* FM Red #FC3C3C */
+}
+

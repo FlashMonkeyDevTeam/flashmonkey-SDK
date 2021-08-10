@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1863d91f-0da9-467b-b2bd-446c55156f07" name="Default Changelist" comment="Initial Commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="lowell" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1fs8uCCIz4ZkMmtyxM3cI2YjrzT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.35363635" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../flashmonkey-betaB/src/main/java/flashmonkey/CreateFlash.java" />
+    <property name="two.files.diff.last.used.folder" value="$USER_HOME$/Desktop/flashmonkey-betaB-2020-07-30/flashmonkey-deploy/src/main/java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Me\IdeaProjects\flashmonkey-developer-interface\src\main\java\type\testtypes" />
+      <recent name="C:\Users\Me\IdeaProjects\flashmonkey-developer-interface\src\main\java\flashmonkey" />
+      <recent name="C:\Users\Me\IdeaProjects\flashmonkey-developer-interface\src\main\java" />
+      <recent name="C:\Users\Me\IdeaProjects\flashmonkey-developer-interface\src\main\java\type\tools" />
+      <recent name="C:\Users\Me\IdeaProjects\flashmonkey-betaB\src\main\resources\image\logo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Me\IdeaProjects\flashmonkey-betaB\src\main\resources\image\logo" />
+      <recent name="C:\Users\Me\IdeaProjects\flashmonkey-betaB\src\main\resources" />
+      <recent name="C:\Users\Me\IdeaProjects\flashmonkey-betaB\src\main\java\DoNotDeploy" />
+      <recent name="C:\Users\Me\IdeaProjects\flashmonkey-betaB\src\main\resources\image" />
+      <recent name="C:\Users\Me\IdeaProjects\flashmonkey-betaB\src\main\resources\font" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="ecosystem" />
+      <recent name="flashmonkey" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="flashmonkey" />
+      <recent name="fileops" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="flashmonkey" />
+      <recent name="search" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JAR Application.flashmonkey-deploy-1.1.0-SNAPSHOT-shaded.jar">
+    <configuration name="Auth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="authcrypt.Auth" />
+      <module name="flashmonkey-deploy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="authcrypt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlashMonkeyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="flashmonkey.FlashMonkeyMain" />
+      <module name="flashmonkey-deploy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="flashmonkey.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flashmonkey-deploy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="forms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="forms" />
+      <option name="MAIN_CLASS_NAME" value="forms.StudentFormTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentFormTest.testStudentInsertDataBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flashmonkey-deploy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="forms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="forms" />
+      <option name="MAIN_CLASS_NAME" value="forms.StudentFormTest" />
+      <option name="METHOD_NAME" value="testStudentInsertDataBase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="flashmonkey-deploy-1.1.0-SNAPSHOT-shaded.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/flashmonkey-deploy-1.1.0-SNAPSHOT-shaded.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.flashmonkey-deploy-1.1.0-SNAPSHOT-shaded.jar" />
+        <item itemvalue="Application.FlashMonkeyMain" />
+        <item itemvalue="Application.Auth" />
+        <item itemvalue="JUnit.StudentFormTest.testStudentInsertDataBase" />
+        <item itemvalue="JUnit.StudentFormTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1863d91f-0da9-467b-b2bd-446c55156f07" name="Default Changelist" comment="" />
+      <created>1596995659449</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596995659449</updated>
+      <workItem from="1596995662402" duration="3299000" />
+      <workItem from="1596999121812" duration="14421000" />
+      <workItem from="1597023372089" duration="1000000" />
+      <workItem from="1597028998062" duration="598000" />
+      <workItem from="1597076477530" duration="9103000" />
+      <workItem from="1597109449726" duration="10759000" />
+      <workItem from="1597166876649" duration="6143000" />
+      <workItem from="1597200703714" duration="890000" />
+      <workItem from="1597258095374" duration="2243000" />
+      <workItem from="1597353759358" duration="18203000" />
+      <workItem from="1597420368540" duration="14298000" />
+      <workItem from="1597524964903" duration="2738000" />
+      <workItem from="1597530605316" duration="4441000" />
+      <workItem from="1597546912728" duration="605000" />
+      <workItem from="1597547687665" duration="370000" />
+      <workItem from="1597548210893" duration="2335000" />
+      <workItem from="1597624853954" duration="2397000" />
+      <workItem from="1597628291292" duration="630000" />
+      <workItem from="1597636408347" duration="296000" />
+      <workItem from="1597636804926" duration="34000" />
+      <workItem from="1597678177434" duration="779000" />
+      <workItem from="1597702678677" duration="1439000" />
+      <workItem from="1597714900169" duration="11295000" />
+      <workItem from="1597765771052" duration="2849000" />
+      <workItem from="1597769453713" duration="1661000" />
+      <workItem from="1597779076331" duration="2435000" />
+      <workItem from="1597813322926" duration="3504000" />
+      <workItem from="1597851330645" duration="2299000" />
+      <workItem from="1597854420215" duration="25000" />
+      <workItem from="1597854466404" duration="857000" />
+      <workItem from="1597855346503" duration="3036000" />
+      <workItem from="1597859231018" duration="1416000" />
+      <workItem from="1597866850835" duration="1125000" />
+      <workItem from="1597868504274" duration="3399000" />
+      <workItem from="1597873918517" duration="1320000" />
+      <workItem from="1597875355298" duration="13710000" />
+      <workItem from="1597895809541" duration="733000" />
+      <workItem from="1597896624288" duration="34000" />
+      <workItem from="1597896676578" duration="147000" />
+      <workItem from="1597896842007" duration="2927000" />
+      <workItem from="1597946223994" duration="2889000" />
+      <workItem from="1598024127916" duration="762000" />
+      <workItem from="1598030619619" duration="4763000" />
+      <workItem from="1598054568793" duration="4023000" />
+      <workItem from="1598069243597" duration="485000" />
+      <workItem from="1598069746139" duration="1251000" />
+      <workItem from="1598071442515" duration="1171000" />
+      <workItem from="1598072632211" duration="4238000" />
+      <workItem from="1598077134170" duration="67000" />
+      <workItem from="1598111433259" duration="7416000" />
+      <workItem from="1598123697591" duration="8053000" />
+      <workItem from="1598142593973" duration="370000" />
+      <workItem from="1598208995584" duration="4469000" />
+      <workItem from="1598214495466" duration="2313000" />
+      <workItem from="1598216828976" duration="3146000" />
+      <workItem from="1598222101770" duration="3137000" />
+      <workItem from="1598226556523" duration="1392000" />
+      <workItem from="1598227963752" duration="18099000" />
+      <workItem from="1598255455800" duration="147000" />
+      <workItem from="1598285259836" duration="5187000" />
+      <workItem from="1598315258314" duration="7905000" />
+      <workItem from="1598373203422" duration="17950000" />
+      <workItem from="1598409794721" duration="1193000" />
+      <workItem from="1598412755255" duration="705000" />
+      <workItem from="1598457553255" duration="3150000" />
+      <workItem from="1598467166026" duration="150000" />
+      <workItem from="1598467350756" duration="381000" />
+      <workItem from="1598467792094" duration="827000" />
+      <workItem from="1598468693704" duration="677000" />
+      <workItem from="1598475383278" duration="3742000" />
+      <workItem from="1598479146407" duration="8294000" />
+      <workItem from="1598542380821" duration="15281000" />
+      <workItem from="1598581132921" duration="6153000" />
+      <workItem from="1598627681294" duration="28034000" />
+      <workItem from="1598673969138" duration="1435000" />
+      <workItem from="1598713111484" duration="30263000" />
+      <workItem from="1598800307516" duration="31153000" />
+      <workItem from="1598851174626" duration="1027000" />
+      <workItem from="1598852223226" duration="2159000" />
+      <workItem from="1598891869370" duration="11052000" />
+      <workItem from="1598925895065" duration="6520000" />
+      <workItem from="1598974659448" duration="3097000" />
+      <workItem from="1599073092700" duration="919000" />
+      <workItem from="1599100071832" duration="1323000" />
+      <workItem from="1599244719532" duration="669000" />
+      <workItem from="1599322467341" duration="833000" />
+      <workItem from="1599670252840" duration="743000" />
+      <workItem from="1599677563890" duration="716000" />
+      <workItem from="1599776461925" duration="389000" />
+      <workItem from="1605671021214" duration="1403000" />
+      <workItem from="1605724395310" duration="654000" />
+      <workItem from="1605764822085" duration="3903000" />
+      <workItem from="1605808860755" duration="46167000" />
+      <workItem from="1605977803210" duration="2044000" />
+      <workItem from="1605981160597" duration="1187000" />
+      <workItem from="1605982738540" duration="73649000" />
+      <workItem from="1606240140181" duration="23029000" />
+      <workItem from="1606369819622" duration="31515000" />
+      <workItem from="1606531511089" duration="54515000" />
+      <workItem from="1606680548211" duration="758000" />
+      <workItem from="1606681325264" duration="944000" />
+      <workItem from="1606682305958" duration="246000" />
+      <workItem from="1606682565799" duration="57600000" />
+      <workItem from="1606884245374" duration="5829000" />
+      <workItem from="1606935461087" duration="2135000" />
+      <workItem from="1606960662751" duration="8267000" />
+      <workItem from="1607122662079" duration="2755000" />
+      <workItem from="1607190353491" duration="656000" />
+      <workItem from="1607191029345" duration="63000" />
+      <workItem from="1607191102794" duration="134000" />
+      <workItem from="1607379413352" duration="15256000" />
+      <workItem from="1607408338171" duration="23000" />
+      <workItem from="1607408371655" duration="2015000" />
+      <workItem from="1607443033868" duration="32075000" />
+      <workItem from="1607724060123" duration="28836000" />
+      <workItem from="1607939313292" duration="22669000" />
+      <workItem from="1608052817225" duration="3021000" />
+      <workItem from="1608108798639" duration="13797000" />
+      <workItem from="1608160352498" duration="14366000" />
+      <workItem from="1608178805963" duration="580000" />
+      <workItem from="1608179401349" duration="1293000" />
+      <workItem from="1608226799841" duration="21386000" />
+      <workItem from="1608350462917" duration="10225000" />
+      <workItem from="1608508698407" duration="21219000" />
+      <workItem from="1608700427365" duration="5656000" />
+      <workItem from="1609087739795" duration="6604000" />
+      <workItem from="1609104279324" duration="16860000" />
+      <workItem from="1609179120730" duration="20867000" />
+      <workItem from="1609265075436" duration="34010000" />
+      <workItem from="1609347345303" duration="14719000" />
+      <workItem from="1609397001066" duration="1518000" />
+      <workItem from="1609435705533" duration="712000" />
+      <workItem from="1609438282558" duration="68287000" />
+      <workItem from="1609863867514" duration="3046000" />
+      <workItem from="1609875618953" duration="19763000" />
+      <workItem from="1609908639492" duration="10119000" />
+      <workItem from="1609950790082" duration="26483000" />
+      <workItem from="1610057226863" duration="17199000" />
+      <workItem from="1610163347345" duration="7608000" />
+      <workItem from="1610174187504" duration="2354000" />
+      <workItem from="1610176577299" duration="1098000" />
+      <workItem from="1610183843258" duration="1068000" />
+      <workItem from="1610184936978" duration="317000" />
+      <workItem from="1610185321338" duration="484000" />
+      <workItem from="1610185980700" duration="377000" />
+      <workItem from="1610186377121" duration="563000" />
+      <workItem from="1610186960461" duration="944000" />
+      <workItem from="1610203236576" duration="3339000" />
+      <workItem from="1610261550501" duration="455000" />
+      <workItem from="1610262022641" duration="1247000" />
+      <workItem from="1610294171133" duration="26868000" />
+      <workItem from="1610345586648" duration="2594000" />
+      <workItem from="1610350574822" duration="34230000" />
+      <workItem from="1610479954730" duration="603000" />
+      <workItem from="1610487122445" duration="4493000" />
+      <workItem from="1610507962668" duration="5850000" />
+      <workItem from="1610521795633" duration="3213000" />
+      <workItem from="1610547199992" duration="5849000" />
+      <workItem from="1610599231652" duration="14717000" />
+      <workItem from="1610668488182" duration="6477000" />
+      <workItem from="1610747017759" duration="6118000" />
+      <workItem from="1610833444215" duration="2105000" />
+      <workItem from="1610981889524" duration="32981000" />
+      <workItem from="1611194739730" duration="4181000" />
+      <workItem from="1611277958612" duration="36287000" />
+      <workItem from="1611366054844" duration="72000" />
+      <workItem from="1611366144924" duration="142000" />
+      <workItem from="1611366465867" duration="36744000" />
+      <workItem from="1611521108935" duration="11681000" />
+      <workItem from="1611590001134" duration="19756000" />
+      <workItem from="1611632839047" duration="9828000" />
+      <workItem from="1611643606874" duration="77000" />
+      <workItem from="1611673412344" duration="43776000" />
+      <workItem from="1611874272235" duration="14107000" />
+      <workItem from="1611932561560" duration="5761000" />
+      <workItem from="1611973290202" duration="4112000" />
+      <workItem from="1612035473682" duration="16643000" />
+      <workItem from="1612109630971" duration="12296000" />
+      <workItem from="1612124514316" duration="5306000" />
+      <workItem from="1612156387194" duration="5666000" />
+      <workItem from="1612190839234" duration="5247000" />
+      <workItem from="1612196306473" duration="14130000" />
+      <workItem from="1612215108921" duration="2830000" />
+      <workItem from="1612230925206" duration="13028000" />
+      <workItem from="1612281810068" duration="2090000" />
+      <workItem from="1612283921684" duration="2431000" />
+      <workItem from="1612297632337" duration="548000" />
+      <workItem from="1612307097932" duration="8396000" />
+      <workItem from="1612317888501" duration="1004000" />
+      <workItem from="1612318918917" duration="183000" />
+      <workItem from="1612329095808" duration="8893000" />
+      <workItem from="1612368786751" duration="6725000" />
+      <workItem from="1612414432405" duration="11177000" />
+      <workItem from="1612455690065" duration="6202000" />
+      <workItem from="1612505600370" duration="2708000" />
+      <workItem from="1612508324107" duration="987000" />
+      <workItem from="1612553791398" duration="1925000" />
+      <workItem from="1612557485984" duration="2656000" />
+      <workItem from="1612560172437" duration="53000" />
+      <workItem from="1612743528852" duration="29070000" />
+      <workItem from="1612892663653" duration="4532000" />
+      <workItem from="1612929302610" duration="369000" />
+      <workItem from="1612977932025" duration="13040000" />
+      <workItem from="1613074680237" duration="685000" />
+      <workItem from="1613150917320" duration="3437000" />
+      <workItem from="1613160596712" duration="293000" />
+      <workItem from="1613191001644" duration="6641000" />
+      <workItem from="1613247481985" duration="10539000" />
+      <workItem from="1613270921714" duration="1368000" />
+      <workItem from="1613272479622" duration="1081000" />
+      <workItem from="1613275106684" duration="67000" />
+      <workItem from="1613323782808" duration="12999000" />
+      <workItem from="1613438267585" duration="113000" />
+      <workItem from="1613452747406" duration="2228000" />
+      <workItem from="1613493787460" duration="1394000" />
+      <workItem from="1613529617204" duration="196000" />
+      <workItem from="1613674316315" duration="599000" />
+      <workItem from="1613684227541" duration="991000" />
+      <workItem from="1613718312659" duration="290000" />
+      <workItem from="1613788138572" duration="3224000" />
+      <workItem from="1614202672405" duration="1605000" />
+      <workItem from="1614278298358" duration="662000" />
+      <workItem from="1614285666784" duration="219000" />
+      <workItem from="1614300893322" duration="197000" />
+      <workItem from="1614472187829" duration="1069000" />
+      <workItem from="1614477487765" duration="37121000" />
+      <workItem from="1614696005293" duration="4703000" />
+      <workItem from="1614711920782" duration="1414000" />
+      <workItem from="1614729982191" duration="6721000" />
+      <workItem from="1614820421876" duration="16990000" />
+      <workItem from="1614889931386" duration="792000" />
+      <workItem from="1614920297642" duration="3424000" />
+      <workItem from="1615054429006" duration="4972000" />
+      <workItem from="1615231162016" duration="1805000" />
+      <workItem from="1615255551542" duration="5156000" />
+      <workItem from="1615323834629" duration="8559000" />
+      <workItem from="1615337938135" duration="1919000" />
+      <workItem from="1615492584738" duration="257000" />
+      <workItem from="1615526463145" duration="15553000" />
+      <workItem from="1615690655551" duration="1897000" />
+      <workItem from="1615919810686" duration="11599000" />
+      <workItem from="1616031384955" duration="954000" />
+      <workItem from="1616042042358" duration="11932000" />
+      <workItem from="1616111915784" duration="62641000" />
+      <workItem from="1616553415451" duration="6449000" />
+      <workItem from="1616697099080" duration="648000" />
+      <workItem from="1616704439772" duration="49000" />
+      <workItem from="1616704653804" duration="568000" />
+      <workItem from="1616722811919" duration="244000" />
+      <workItem from="1616776777839" duration="7248000" />
+      <workItem from="1617056262341" duration="2942000" />
+      <workItem from="1617076055545" duration="2010000" />
+      <workItem from="1617202051326" duration="615000" />
+      <workItem from="1617208737892" duration="3199000" />
+      <workItem from="1617239213879" duration="3673000" />
+      <workItem from="1617303481163" duration="14838000" />
+      <workItem from="1617382705214" duration="25000" />
+      <workItem from="1617508833224" duration="1835000" />
+      <workItem from="1617514355903" duration="8000" />
+      <workItem from="1617543487517" duration="9000" />
+      <workItem from="1617634196612" duration="10649000" />
+      <workItem from="1617664546584" duration="12284000" />
+      <workItem from="1617689861384" duration="361000" />
+      <workItem from="1617690239006" duration="8000" />
+      <workItem from="1617691517534" duration="256000" />
+      <workItem from="1617691866864" duration="12000" />
+      <workItem from="1617692076983" duration="1408000" />
+      <workItem from="1617720846482" duration="6790000" />
+      <workItem from="1617733457338" duration="12000" />
+      <workItem from="1617754185020" duration="414000" />
+      <workItem from="1617759857123" duration="2148000" />
+      <workItem from="1617762719676" duration="1266000" />
+      <workItem from="1617822899933" duration="1930000" />
+      <workItem from="1617828962631" duration="3815000" />
+      <workItem from="1617927130255" duration="2241000" />
+      <workItem from="1617997657972" duration="5072000" />
+      <workItem from="1618091779075" duration="35706000" />
+      <workItem from="1618326417490" duration="6011000" />
+      <workItem from="1618366742544" duration="2001000" />
+      <workItem from="1618492509455" duration="48000" />
+      <workItem from="1618492570483" duration="1224000" />
+      <workItem from="1618493814291" duration="2324000" />
+      <workItem from="1618537901234" duration="11827000" />
+      <workItem from="1618605789450" duration="4774000" />
+      <workItem from="1618629996802" duration="2349000" />
+      <workItem from="1618640122977" duration="2060000" />
+      <workItem from="1618677516352" duration="5942000" />
+      <workItem from="1618710675071" duration="11827000" />
+      <workItem from="1618872562937" duration="2094000" />
+      <workItem from="1619060058436" duration="159000" />
+      <workItem from="1619145044910" duration="14957000" />
+      <workItem from="1619231728923" duration="138000" />
+      <workItem from="1619231884294" duration="5216000" />
+      <workItem from="1619275873012" duration="13888000" />
+      <workItem from="1619320712297" duration="12523000" />
+      <workItem from="1619357696437" duration="11691000" />
+      <workItem from="1619378505093" duration="5272000" />
+      <workItem from="1619641199022" duration="643000" />
+      <workItem from="1619714167177" duration="2968000" />
+      <workItem from="1619719032368" duration="1818000" />
+      <workItem from="1619734085473" duration="50000" />
+      <workItem from="1619734146387" duration="8162000" />
+      <workItem from="1619791170405" duration="1528000" />
+      <workItem from="1619814640207" duration="3501000" />
+      <workItem from="1619895107158" duration="11493000" />
+      <workItem from="1620020979286" duration="3389000" />
+      <workItem from="1620054345423" duration="31837000" />
+      <workItem from="1620259374761" duration="13690000" />
+      <workItem from="1620311998358" duration="33007000" />
+      <workItem from="1620504724948" duration="14232000" />
+      <workItem from="1620652488683" duration="30042000" />
+      <workItem from="1621136737435" duration="12644000" />
+      <workItem from="1621295948305" duration="12502000" />
+      <workItem from="1621393932527" duration="4251000" />
+      <workItem from="1621429303450" duration="70000" />
+      <workItem from="1621429653390" duration="28279000" />
+      <workItem from="1621577970522" duration="2100000" />
+      <workItem from="1621633210892" duration="996000" />
+      <workItem from="1621713058949" duration="2386000" />
+      <workItem from="1621987992923" duration="201000" />
+      <workItem from="1622125555055" duration="1222000" />
+      <workItem from="1622382887479" duration="3596000" />
+      <workItem from="1622438380255" duration="591000" />
+      <workItem from="1622440421933" duration="6360000" />
+      <workItem from="1622651745925" duration="5285000" />
+      <workItem from="1622827243990" duration="33000" />
+      <workItem from="1622858386952" duration="641000" />
+      <workItem from="1623006503562" duration="8082000" />
+      <workItem from="1623272128527" duration="2114000" />
+      <workItem from="1623333771256" duration="926000" />
+      <workItem from="1623387915611" duration="621000" />
+      <workItem from="1623504545959" duration="21000" />
+      <workItem from="1623601731953" duration="39000" />
+      <workItem from="1623968751698" duration="1155000" />
+      <workItem from="1623984134502" duration="792000" />
+      <workItem from="1624328779412" duration="5339000" />
+      <workItem from="1624372547770" duration="8789000" />
+      <workItem from="1624456103966" duration="3630000" />
+      <workItem from="1624459781385" duration="1028000" />
+      <workItem from="1624460827840" duration="45000" />
+      <workItem from="1624461050395" duration="2367000" />
+      <workItem from="1624467318579" duration="29910000" />
+      <workItem from="1624555746980" duration="35188000" />
+      <workItem from="1624855555719" duration="29184000" />
+      <workItem from="1625089091927" duration="11619000" />
+      <workItem from="1625273419071" duration="573000" />
+      <workItem from="1625615644404" duration="2889000" />
+      <workItem from="1625784565421" duration="1204000" />
+      <workItem from="1625927159529" duration="651000" />
+      <workItem from="1626022658842" duration="2420000" />
+      <workItem from="1626096842782" duration="54571000" />
+      <workItem from="1626354432741" duration="12577000" />
+      <workItem from="1626393918096" duration="6066000" />
+      <workItem from="1626459823196" duration="16616000" />
+      <workItem from="1626498994683" duration="6143000" />
+      <workItem from="1626509350762" duration="252000" />
+      <workItem from="1626509617291" duration="10834000" />
+      <workItem from="1626548356507" duration="102000" />
+      <workItem from="1626616249812" duration="42482000" />
+      <workItem from="1626738608647" duration="4917000" />
+      <workItem from="1626822398191" duration="3517000" />
+      <workItem from="1626853052760" duration="798000" />
+      <workItem from="1626856408958" duration="23124000" />
+      <workItem from="1626973399892" duration="473000" />
+      <workItem from="1626973890700" duration="12919000" />
+      <workItem from="1627011511834" duration="2570000" />
+      <workItem from="1627112418290" duration="17251000" />
+      <workItem from="1627174642026" duration="1329000" />
+      <workItem from="1627176868437" duration="63000" />
+      <workItem from="1627184257085" duration="5506000" />
+      <workItem from="1627223687824" duration="12015000" />
+      <workItem from="1627250186718" duration="2801000" />
+      <workItem from="1627253902997" duration="90018000" />
+      <workItem from="1627493480293" duration="1269000" />
+      <workItem from="1627501035612" duration="4381000" />
+      <workItem from="1627573793687" duration="8520000" />
+      <workItem from="1627673422100" duration="3166000" />
+      <workItem from="1627911537250" duration="18531000" />
+      <workItem from="1627970829657" duration="7324000" />
+      <workItem from="1628107918097" duration="851000" />
+      <workItem from="1628110970537" duration="75000" />
+      <workItem from="1628111259457" duration="11068000" />
+      <workItem from="1628204570776" duration="7594000" />
+      <workItem from="1628222269914" duration="2634000" />
+      <workItem from="1628232774607" duration="6870000" />
+      <workItem from="1628568192069" duration="1040000" />
+    </task>
+    <task id="LOCAL-00001" summary="Creating deck search, &amp; several bug fixes">
+      <created>1597019756650</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597019756650</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding deck search,&#10;  added - Find institutions by HashMapSearch&#10;  added - AutoCompleteBox with dropdown list">
+      <created>1597876585046</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597876585046</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Deck Search first query to DB completed.">
+      <created>1598590835617</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598590835617</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added ability for ComboBoxAutoComplete to use Strings derived from DataBase.">
+      <created>1598675376624</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598675376624</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed Forms API bug on backspace and delete.">
+      <created>1598931834087</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598931834087</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Working on security and link ambiguation. Downloading completed">
+      <created>1606683085630</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606683085630</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Completed Security and link ambiguation. uploading completed, downloading completed">
+      <created>1606893048651</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606893048651</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Working on completing and debugging Security, and link ambiguity">
+      <created>1609817059044</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609817059044</updated>
+    </task>
+    <task id="LOCAL-00009" summary="With exception to bugs, link ambiguation is complete for S3 media and deck operations.">
+      <created>1611536123584</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611536123584</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Corrected bugs for deck metadata and user account forms">
+      <created>1611643663220</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611643663220</updated>
+    </task>
+    <task id="LOCAL-00011" summary="implementing DeckMarketPane. Select deck, and data from teaserPane">
+      <created>1611890299476</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611890299476</updated>
+    </task>
+    <task id="LOCAL-00012" summary="implementing DeckMarketPane. Progress on layout and formatting">
+      <created>1612129826989</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1612129826989</updated>
+    </task>
+    <task id="LOCAL-00013" summary="implementing DeckMarketPane. Progress on layout and formatting">
+      <created>1612217933508</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1612217933508</updated>
+    </task>
+    <task id="LOCAL-00014" summary="implementing DeckMarketPane. Progress on layout and formatting">
+      <created>1612244099971</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1612244099971</updated>
+    </task>
+    <task id="LOCAL-00015" summary="implementing DeckMarketPane. Progress on layout and formatting">
+      <created>1612397940530</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1612397940530</updated>
+    </task>
+    <task id="LOCAL-00016" summary="implementing DeckMarketPane. completed cartBox update after adding a deck and changing from one deck to another.">
+      <created>1612509308276</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1612509308276</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Integrating card processing for purchases">
+      <created>1612929663325</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1612929663325</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Integrating card processing for purchases">
+      <created>1613453699167</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1613453699167</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Integrating card processing for purchases">
+      <created>1614673704578</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1614673704578</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Integrating onboarding and &#10;card processing for purchases - minor changes">
+      <created>1615701926585</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1615701926585</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Minor bug fix with snapshot and drawpad">
+      <created>1618360175935</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1618360175935</updated>
+    </task>
+    <task id="LOCAL-00022" summary="New login page and images">
+      <created>1619297276709</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1619297276709</updated>
+    </task>
+    <task id="LOCAL-00023" summary="modified UI of app, changed colors, changed background">
+      <created>1619369970162</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1619369970162</updated>
+    </task>
+    <task id="LOCAL-00024" summary="modified UI of app, continued changes">
+      <created>1619383537253</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1619383537253</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Updated pay system for link ambiguation">
+      <created>1620024958313</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1620024958313</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Pay system connected for Connected Accounts and for Subscriptions. Near completion minus bugs and missing chad.">
+      <created>1621353670858</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1621353670858</updated>
+    </task>
+    <task id="LOCAL-00027" summary="UPdate one for shapes.">
+      <created>1624328988976</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1624328988976</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Minor bug fixes for shapes">
+      <created>1624513636755</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1624513636755</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Log in system changes">
+      <created>1626327547465</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1626327547465</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Log in system updates for connected and unconnected scenarios">
+      <created>1626547768613</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1626547768613</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Sign-in capabilities updated.">
+      <created>1627191919455</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1627191919455</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Color changes to buttons">
+      <created>1627241126496</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1627241126496</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Deck Search first query to DB completed." />
+    <MESSAGE value="Added ability for ComboBoxAutoComplete to use Strings derived from DataBase." />
+    <MESSAGE value="Fixed Forms API bug on backspace and delete." />
+    <MESSAGE value="Working on security and link ambiguation. Downloading completed" />
+    <MESSAGE value="Completed Security and link ambiguation. uploading completed, downloading completed" />
+    <MESSAGE value="Working on completing and debugging Security, and link ambiguity" />
+    <MESSAGE value="With exception to bugs, link ambiguation is complete for S3 media and deck operations." />
+    <MESSAGE value="Corrected bugs for deck metadata and user account forms" />
+    <MESSAGE value="implementing DeckMarketPane. Select deck, and data from teaserPane" />
+    <MESSAGE value="implementing DeckMarketPane. Progress on layout and formatting" />
+    <MESSAGE value="implementing DeckMarketPane. completed cartBox update after adding a deck and changing from one deck to another." />
+    <MESSAGE value="Integrating card processing for purchases" />
+    <MESSAGE value="Integrating onboarding and &#10;card processing for purchases - minor changes" />
+    <MESSAGE value="Minor bug fix with snapshot and drawpad" />
+    <MESSAGE value="New login page and images" />
+    <MESSAGE value="modified UI of app, changed colors, changed background" />
+    <MESSAGE value="modified UI of app, continued changes" />
+    <MESSAGE value="Updated pay system for link ambiguation" />
+    <MESSAGE value="Pay system connected for Connected Accounts and for Subscriptions. Near completion minus bugs and missing chad." />
+    <MESSAGE value="UPdate one for shapes." />
+    <MESSAGE value="Minor bug fixes for shapes" />
+    <MESSAGE value="Log in system changes" />
+    <MESSAGE value="Log in system updates for connected and unconnected scenarios" />
+    <MESSAGE value="Sign-in capabilities updated." />
+    <MESSAGE value="Color changes to buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Color changes to buttons" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/forms/utility/MetaDescriptor.java</url>
+          <line>264</line>
+          <properties class="forms.utility.MetaDescriptor" method="setToRemoteData">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/forms/utility/PersonDescriptor.java</url>
+          <line>83</line>
+          <properties class="forms.utility.PersonDescriptor" method="getPhotoLink">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/type/draw/shapes/FMPolyLine.java</url>
+          <line>213</line>
+          <properties class="type.draw.shapes.FMPolyLine" method="getBuilder">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/type/draw/shapes/FMPolyLine.java</url>
+          <line>227</line>
+          <properties class="type.draw.shapes.FMPolyLine" method="getBuilder">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/type/draw/shapes/PolylineBuilder.java</url>
+          <line>235</line>
+          <properties class="type.draw.shapes.PolylineBuilder" method="mouseReleased">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/type/draw/shapes/PolylineBuilder.java</url>
+          <line>373</line>
+          <properties class="type.draw.shapes.PolylineBuilder" method="shapePressed">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/type/draw/shapes/PolylineBuilder.java</url>
+          <line>475</line>
+          <properties class="type.draw.shapes.PolylineBuilder" method="shapeReleased">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/fileops/S3GetObjs.java</url>
+          <line>325</line>
+          <properties class="fileops.S3GetObjs" method="getMediaURLs">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.AssertionError" package="java.lang" />
+          <option name="timeStamp" value="92" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/authcrypt/user/EncryptedPerson.java</url>
+          <line>162</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/authcrypt/user/EncryptedPerson.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/forms/utility/PersonDescriptor.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/forms/utility/PersonDescriptor.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/authcrypt/user/EncryptedAcct.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/FlashMonkeyMain.java</url>
+          <line>398</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/type/draw/shapes/PolylineBuilder.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/type/draw/shapes/PolylineBuilder.java</url>
+          <line>487</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/type/draw/shapes/PolylineBuilder.java</url>
+          <line>488</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/type/draw/shapes/PolylineBuilder.java</url>
+          <line>490</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/type/draw/shapes/PolylineBuilder.java</url>
+          <line>489</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/authcrypt/Verify.java</url>
+          <line>184</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fileops/CloudOps.java</url>
+          <line>232</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fileops/CloudOps.java</url>
+          <line>234</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fileops/CloudOps.java</url>
+          <line>242</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/authcrypt/Verify.java</url>
+          <line>185</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fileops/S3ListObjs.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fileops/S3GetObjs.java</url>
+          <line>327</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fileops/S3GetObjs.java</url>
+          <line>326</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fileops/S3GetObjs.java</url>
+          <line>329</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fileops/S3GetObjs.java</url>
+          <line>331</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fileops/S3GetObjs.java</url>
+          <line>332</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fileops/S3GetObjs.java</url>
+          <line>333</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/type/celleditors/SectionEditor.java</url>
+          <line>1626</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/type/celleditors/SectionEditor.java</url>
+          <line>1627</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/type/celleditors/SectionEditor.java</url>
+          <line>1628</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/type/celleditors/SectionEditor.java</url>
+          <line>1629</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/type/celleditors/SectionEditor.java</url>
+          <line>1872</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/flashmonkey_betaB$All_in_flashmonkey_deploy.ic" NAME="All in flashmonkey-deploy Coverage Results" MODIFIED="1610261601050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

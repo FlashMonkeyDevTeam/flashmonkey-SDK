@@ -1,0 +1,585 @@
+/*
+    Created on : Dec 26, 2016, 12:16:57 PM
+    Author     : humanfriendlyfolder
+
+Notes: To make a node or fx element modifiable by this css sheet. The node
+must have an ID set. Use the '#' here in css. To call the id name from java
+simply use the name without the #.
+Otherwise to modify a Type, use the '.' and identify the Type to be modified.  
+*/
+/* For creating the button border like javafx modena.css */
+.root {
+    /*-fx-base: #ececec;
+    -fx-background: derive(-fx-base,26.4%); */
+    -fx-control-inner-background: derive(-fx-base,80%);
+    -fx-shadow-highlight-color: ladder(
+            -fx-background,
+            rgba(255,255,255,0.07) 0%,
+            rgba(255,255,255,0.07) 20%,
+            rgba(255,255,255,0.07) 70%,
+            rgba(255,255,255,0.7) 90%,
+            rgba(255,255,255,0.75) 100%
+    );
+    -fx-outer-border: derive(-fx-color,-23%);
+
+    -fx-inner-border:
+        ladder(
+            -fx-background,
+            rgba(236,236,236,0.3) 0%,
+            rgba(236,236,236,0.2) 40%,
+            rgba(236,236,236,0.25) 60%,
+            rgba(236,236,236,0.55) 80%,
+            rgba(236,236,236,0.55) 90%,
+            rgba(236,236,236,0.75) 100%),
+
+        ladder(
+            -fx-background,
+            rgba(236,236,236,0.2) 0%,
+            rgba(236,236,236,0.1) 20%,
+            rgba(236,236,236,0.5) 40%,
+            rgba(236,236,236, 1) 60%,
+            rgba(236,236,236, 1) 100%
+    );
+
+
+    FM_RED_WRONG: #D20035;
+    FM_RED_FAINT: #D2003522;
+    FM_GREEN_RIGHT: #32CD32;
+    FM_GREEN_FAINT: #32CD3222;
+
+    FM_SETTINGS_COLOR: #256C9B;
+    FM_SETTINGS_FAINT: #256C9B22;
+    FM_SETTINGS_BCKGND: #37A1E8;
+    IKON_BLUE: #0099CC;
+    /* The text label color */
+    FM_TEXT_LABEL: white; /* #F8B500 yellow */
+    FM_GREY: #393E46;
+
+    BACKGROUND_PURPLE: #D2ABF7; /* lighter purple */
+    FLASH_PURPLE: #9276AC;
+    BUTTON_PURPLE: #48206E; /* 48206E 3F0B70*/
+    BUTTON_COMPLIMENT: #8248B9;//
+    FLASH_RED: #FC3C3C;
+    FLASH_WHITE: #FFF4E0; // FM_WHITE
+    BUTTON_WHITE: #FFFFFF;
+
+
+
+    /*linear-gradient( [ [from <point> to <point>] | [ to <side-or-corner>], ]? [ [ repeat | reflect ], ]? <color-stop>[, <color-stop>]+) */
+    /*-fx-inner-border-horizontal:  linear-gradient(to top, derive(#ececec,55%) 0%, derive(#ececec,-5%) 50%);
+    -fx-inner-border-bottomup: linear-gradient(to top, derive(#ececec, 55%), derive(#ececec,-5%));*/
+}
+
+#wrong_border {
+    -fx-border-radius: 3 3 3 3;
+    -fx-background-radius: 3 3 3 3;
+    -fx-color: FM_RED_WRONG;
+    -fx-faint-focus-color: FM_RED_FAINT;
+    -fx-shadow-highlight-color: ladder(
+            -fx-background,
+            rgba(210,0,53,0.07) 0%,
+            rgba(210,0,53,0.07) 20%,
+            rgba(210,0,53,0.07) 70%,
+            rgba(210,0,53,0.7) 90%,
+            rgba(210,0,53,0.75) 100%
+    );
+    -fx-outer-border: derive(-fx-color,-23%);
+
+    -fx-inner-border:
+        ladder(
+            -fx-background,
+            rgba(210,0,53,0.3) 0%,
+            rgba(210,0,53,0.2) 40%,
+            rgba(210,0,53,0.25) 60%,
+            rgba(210,0,53,0.55) 80%,
+            rgba(210,0,53,0.55) 90%,
+            rgba(210,0,53,0.75) 100%),
+
+        ladder(
+            -fx-background,
+            rgba(210,0,53,0.2) 0%,
+            rgba(210,0,53,0.1) 20%,
+            rgba(210,0,53,0.5) 40%,
+            rgba(210,0,53, 1) 60%,
+            rgba(210,0,53, 1) 100%
+    );
+    /*-fx-border-color: -fx-inner-border, -fx-outer-border, -fx-shadow-highlight-color;*/
+    -fx-border-color: -fx-color, -fx-inner-border, -fx-body-color, -fx-faint-focus-color, -fx-color;
+}
+
+#right_border {
+    -fx-border-radius: 3 3 3 3;
+    -fx-background-radius: 3 3 3 3;
+    -fx-color: FM_GREEN_RIGHT;
+    -fx-faint-focus-color: FM_GREEN_FAINT;
+    /*-fx-control-inner-background: rgba(210,0,53,0.07) 10%; */
+    -fx-shadow-highlight-color: ladder(
+            -fx-background,
+            rgba(50,205,50,0.07) 0%,
+            rgba(50,205,50,0.07) 20%,
+            rgba(50,205,50,0.07) 70%,
+            rgba(50,205,50,0.7) 90%,
+            rgba(50,205,50,0.75) 100%
+    );
+    -fx-outer-border: derive(-fx-color,-23%);
+
+    -fx-inner-border: ladder(
+            -fx-background,
+            rgba(50,205,50,0.3) 0%,
+            rgba(50,205,50,0.2) 40%,
+            rgba(50,205,50,0.25) 60%,
+            rgba(50,205,50,0.55) 80%,
+            rgba(50,205,50,0.55) 90%,
+            rgba(50,205,50,0.75) 100%),
+
+    ladder(
+            -fx-background,
+            rgba(50,205,50,0.2) 0%,
+            rgba(50,205,50,0.1) 20%,
+            rgba(50,205,50,0.5) 40%,
+            rgba(50,205,50, 1) 60%,
+            rgba(50,205,50, 1) 100%
+    );
+    /*-fx-border-color: -fx-inner-border, -fx-outer-border, -fx-shadow-highlight-color;*/
+    -fx-border-color: -fx-color, -fx-inner-border, -fx-body-color, -fx-faint-focus-color, -fx-color;
+}
+
+#graph_settings_border {
+    -fx-border-radius: 3 3 3 3;
+    -fx-background-radius: 3 3 3 3;
+    -fx-color: FM_SETTINGS_COLOR;
+    -fx-faint-focus-color: FM_SETTINGS_FAINT;
+    -fx-control-inner-background: FM_SETTINGS_BCKGND;
+    -fx-shadow-highlight-color: ladder(
+            -fx-background,
+            rgba(46,134,193,0.07) 0%,
+            rgba(46,134,193,0.07) 20%,
+            rgba(46,134,193,0.07) 70%,
+            rgba(46,134,193,0.7) 90%,
+            rgba(46,134,193,0.75) 100%
+    );
+    -fx-outer-border: derive(-fx-color,-23%);
+
+    -fx-inner-border: ladder(
+            -fx-background,
+            rgba(46,134,193,0.3) 0%,
+            rgba(46,134,193,0.2) 40%,
+            rgba(46,134,193,0.25) 60%,
+            rgba(46,134,193,0.55) 80%,
+            rgba(46,134,193,0.55) 90%,
+            rgba(46,134,193,0.75) 100%),
+
+    ladder(
+            -fx-background,
+            rgba(46,134,193,0.2) 0%,
+            rgba(46,134,193,0.1) 20%,
+            rgba(46,134,193,0.5) 40%,
+            rgba(46,134,193, 1) 60%,
+            rgba(46,134,193, 1) 100%
+    );
+
+    -fx-border-color: -fx-color, -fx-inner-border, -fx-body-color, -fx-faint-focus-color, -fx-color;
+}
+
+/* FONTS */
+@font-face{
+
+    font-family: 'Raleway-Medium';
+    src: url("../font/Roboto-Medium.ttf");
+}
+
+@font-face{
+    font-family: 'Raleway';
+    src: url("../font/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url("../font/Roboto-Bold.ttf")
+}
+/*
+@font-face{
+    font-family: 'Lobster';
+    src: url('/resources/Lobster_1.3.otf');
+}
+*/
+
+
+.cfpCenter {
+    -fx-font-size: 15px;
+    -fx-font-family: "Raleway";
+}
+
+.scroll-pane {
+    /*-fx-border-style: none; */
+}
+
+.VBox {
+    -fx-padding: 2, 2, 2, 2;
+}
+
+
+/* remove group outline */
+.formsfx-group {
+    -fx-border-width: 0px;
+    /*-fx-border-color: TRANSPARENT;*/
+    -fx-border-insets: 0px;
+}
+
+.label {
+    -fx-font-family: "Raleway-Medium.ttf";
+}
+
+
+.text {
+    -fx-font-family: "Raleway-Medium.ttf";
+}
+
+/*
+ * May cause a conflict between forms text area and create/readflash
+ */
+.text-area {
+    -fx-font-family: "Raleway-Medium.ttf";
+    -fx-background-insets: 2;
+    -fx-background-color: transparent, white, transparent, white;
+    -fx-background-radius: 0, 0, 0, 0;
+
+    /*-fx-box-border: none; */
+    /* -fx-background-color: transparent, white, transparent, white; */
+    /*-fx-faint-focus-color: -fx-control-inner-background;*/
+    /*-fx-text-box-border: -fx-control-inner-background; */
+    -fx-border-width: -1;
+}
+
+/*
+ * controls text-area background in
+ * flash monkey main GUI
+ */
+.text-area .content {
+    -fx-background-color: white;
+}
+
+.text-field {
+    -fx-font-family: "Raleway-Medium.ttf";
+}
+
+#colorRect :hover {
+
+}
+
+
+#deckNameLabel {
+    -fx-font-size: 16px;
+    -fx-font-family: "Raleway-Bold";
+    -fx-text-fill: #ecf0f1;
+    -fx-padding: 5 2 5 2;
+}
+
+/* h1 the FlashMonkey Label */
+#fmLabel {
+    -fx-font-size: 20px;
+    -fx-base: FLASH_PURPLE;
+    /*-fx-text-fill: FM_TEXT_LABEL; */
+    -fx-text-fill: derive(-fx-base,86%);
+}
+
+
+
+/* h2labels */
+#h2Label {
+    -fx-font-size: 16px;
+    -fx-base: BUTTON_PURPLE;
+    /*-fx-text-fill: FM_TEXT_LABEL; */
+    -fx-text-fill: derive(-fx-base,86%);
+    /*-fx-text-fill: #F8B500;  // yellow */
+    /*-fx-text-fill: #8146B6; */
+}
+
+#infoPane {
+    -fx-base: BUTTON_PURPLE;
+    -fx-font-size: 12px;
+    -fx-text-fill: derive(-fx-base, 86%);
+}
+
+
+#errorLabel {
+    -fx-font-size: 16px;
+    /*-fx-base: FLASH_PURPLE;*/
+    /*-fx-text-fill: FM_TEXT_LABEL; */
+    -fx-text-fill: "rgba(204, 255, 0, 0.9)";
+}
+
+
+
+#menuPane {
+    -fx-background-color: #393E46;
+}
+
+#firstPane {
+    /* -fx-background-color: #DFDCE3; */
+}
+
+#modePane {
+    -fx-background-color: #393E46;
+}
+
+/* the CreateFlash cfpNorthPanel where the label is placed */
+#cfpNorthPane {
+    -fx-background-color: #3498db;
+}
+
+#graphTextField {
+    -fx-background-color: #256C9B;
+}
+
+
+/* h1 the FlashMonkey Label */
+#fmLabel {
+    -fx-font-size: 20px;
+    -fx-base: FLASH_PURPLE;
+    /*-fx-text-fill: FM_TEXT_LABEL; */
+    -fx-text-fill: derive(-fx-base,86%);
+}
+
+
+
+
+
+/* the CreateFlash label */
+#deckNameLabel {
+    -fx-font-size: 12px;
+    -fx-font-family: "Raleway-Medium.ttf";
+    -fx-text-fill: #ecf0f1;
+    -fx-padding: 5 2 5 2;
+    /*-fx-fit-to-height: true;*/
+}
+
+/* The createFlash MasterPane */
+#cfMasterPane {
+    /*-fx-background-color: #FFF4E0; */
+    -fx-background-color: #2980b9;
+    -fx-padding: 2 2 3 2;
+}
+
+#message {
+    -fx-pading: 20, 20,20,20;
+    -fx-border-insets: 20px;
+    -fx-background-insets: 20px;
+    -fx-font-size: 16px;
+    -fx-text-fill: #FF5400;
+    -fx-wrap-text: true;
+}
+
+#mainGridPane {
+    /*fx-background-color: #393E46;*/
+    /*-fx-background-color: #ffffff; */
+    /*-fx-background-image: url("/image/fm_bckgrnd.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 330 500;
+    -fx-background-position: center center;*/
+    -fx-vgap: 20;
+}
+
+#graphNumber {
+    -fx-text-fill: WHITE;
+    -fx-font-family: "Raleway-Medium.ttf";
+    -fx-font-size: 9;
+}
+
+
+
+#roundCorners {
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+
+/* File selection panel on  */
+#fileSelectPane {
+    /*-fx-border-color: #00ADB5;
+    -fx-background-color: #00ADB5;*/
+    -fx-border-color: #9276AC;
+    -fx-background-color: #9276AC;
+    -fx-margin-top: 20;
+    -fx-margin-bottom: 20;
+    -fx-padding: 10,10,10,10;
+}
+
+#resultPane {
+    -fx-wrap-text: true;
+    -fx-background-color: #ff5400;
+}
+
+#rightPaneWhite {
+    -fx-background-color: white;
+    -fx-padding: 4,4,4,4;
+}
+
+#rightPaneTransp {
+    -fx-background-color: transparent;
+    -fx-padding: 4,4,4,4;
+}
+
+#rpCenter {
+    -fx-padding: 4,4,4,4;
+}
+
+#tfBox {
+    -fx-background-color: white;
+    -fx-padding: 4,4,4,4;
+}
+
+#searchText{
+    /*-fx-control-inner-background: #0E89EC; */
+    -fx-border-radius: 3 0 0 3;
+    -fx-background-radius: 3 0 0 3;
+    /*-fx-border-color: #0C73C5;*/
+}
+
+/* prompt field text color bright blue*/
+#promptFAlert {
+    -fx-prompt-text-fill: #0209F7;
+    -fx-background-color: #9276AC; /* fmPurple */
+    /*-fx-display-caret: none; */
+}
+
+/* prompt field text color */
+#promptFNorm {
+    -fx-prompt-text-fill: #0C73C5;
+    -fx-cursor: normal;
+}
+
+#playerPopup {
+    -fx-background-color: FLASH_PURPLE;
+    -fx-padding: 5, 5, 5, 5;
+}
+
+#toolTip {
+    /*-fx-background-color: rgba(5,216,53,0.8);*/
+    -fx-text-fill: white;
+    -fx-background-color: rgba(5,216,53,0.8);
+    -fx-background-radius: 3px;
+    -fx-background-insets: 0;
+    -fx-padding: 0.667em 0.75em 0.667em 0.75em; 
+}
+
+#graphToolTip {
+    -fx-background-color: rgba(5,216,53,0.8);
+}
+
+#correct {
+	-fx-background-color: #F0FF35; 
+	-fx-opacity: .5; 
+}
+
+#incorrect {
+	-fx-background-color: #D20035; /* #FF5400; */
+	-fx-opacity: .5;
+}
+
+#invalid {
+    -fx-background-color: #FF530D;
+    -fx-opacity: .5;
+}
+
+#masterPane {
+    /* -fx-padding: 2 2 2 2; */
+}
+
+
+
+
+#letterbox {
+    -fx-background-insets: 2;
+    -fx-background-color: #000000;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-border-width: 2;
+}
+
+
+/* *** formsfx related *** */
+
+#form-field {
+/*
+    -fx-color: #8248B9;
+    -fx-faint-focus-color: #8248B9;
+    -fx-background-color: #8248B9;
+    -fx-control-inner-background: #8248B9 10%;
+    -fx-outer-border: #8248B9;
+    -fx-inner-border: #8248B9;
+    -fx-text-box-border: #8248B9;
+    -fx-box-border: #8248B9;
+    -fx-inner-border-horizontal: #8248B9;
+ */
+}
+
+
+#form-field:focused {
+ /*   -fx-border-color: white;
+    -fx-color: white;
+    -fx-faint-focus-color: white;
+    -fx-control-inner-background: white 10%;
+
+  */
+}
+
+
+#password:focused {
+    /*-fx-border-color: #8248B9;
+    -fx-color: #8248B9;
+    -fx-faint-focus-color: #8248B9;*/
+}
+
+
+
+/*  Background image  */
+#bckgnd_image {
+  /*  -fx-background-image: url("/image/fm_bckgrnd.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 500 810;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(gaussian, black, 10, 1.0, 100, 100);
+
+   */
+}
+/*
+.text-area:focused .content {
+    -fx-background-color: transparent, white, transparent, white;
+}
+*/
+/*
+.scroll-pane {
+}
+
+.viewport {
+    -fx-background-insets: 0;
+    -fx-background-color: transparent, white, transparent, white;
+    -fx-background-radius: 0, 0, 0, 0;
+
+    -fx-focus-color: -fx-control-inner-background;
+    -fx-faint-focus-color: -fx-control-inner-background;
+    -fx-text-box-border: -fx-control-inner-background;
+    -fx-border-width: -1;
+}
+
+.content {
+}
+
+.text {
+}
+
+.text-area:focused {
+    -fx-highlight-fill: #7ecfff;
+
+    -fx-background-insets: 0;
+    -fx-background-color: transparent, white, transparent, white;
+    -fx-background-radius: 0, 0, 0, 0;
+
+    -fx-focus-color: -fx-control-inner-background;
+    -fx-faint-focus-color: -fx-control-inner-background;
+    -fx-text-box-border: -fx-control-inner-background;
+    -fx-border-width: -1;
+}
+*/
+
+
+

@@ -1,0 +1,101 @@
+/* For creating the button border like javafx modena.css */
+.root {
+    FM_RED_WRONG: #D20035;
+    FM_RED_FAINT: #D2003522;
+    FM_GREEN_RIGHT: #32CD32;
+    FM_GREEN_FAINT: #32CD3222;
+
+    FM_SETTINGS_COLOR: #256C9B;
+    FM_SETTINGS_FAINT: #256C9B22;
+    FM_SETTINGS_BCKGND: #37A1E8;
+    /* The text label color */
+    FM_TEXT_LABEL: #FFFFFF; /* #F8B500 yellow */
+    FM_GREY: #393E46;
+
+    FLASH_PURPLE: #9276AC;
+    BUTTON_PURPLE: #48206E; /* 48206E 3F0B70*/
+    BUTTON_COMPLIMENT: #8248B9;//
+    FLASH_RED: #FC3C3C;
+    ROSE_RED: #E32E68;
+    FLASH_WHITE: #FFF4E0;
+    BUTTON_PURPLE_50: rgba(72, 32, 110, .5);
+
+}
+
+/* FONTS */
+@font-face{
+    font-family: 'Raleway-Medium';
+    src: url("../font/Roboto-Medium.ttf");
+}
+
+@font-face{
+    font-family: 'Raleway';
+    src: url("../font/Roboto-Regular.ttf");
+}
+
+
+
+
+
+
+
+
+
+
+.VBox {
+    /*-fx-padding: 2, 2, 2, 2; */
+}
+
+
+
+
+
+#rpCenter {
+
+    /*-fx-padding: 4,4,4,4; */
+}
+
+
+
+
+
+
+
+
+/* *** formsfx related *** */
+
+#form-field {
+    /*
+        -fx-color: #8248B9;
+        -fx-faint-focus-color: #8248B9;
+        -fx-background-color: #8248B9;
+        -fx-control-inner-background: #8248B9 10%;
+        -fx-outer-border: #8248B9;
+        -fx-inner-border: #8248B9;
+        -fx-text-box-border: #8248B9;
+        -fx-box-border: #8248B9;
+        -fx-inner-border-horizontal: #8248B9;
+     */
+}
+
+
+#form-field:focused {
+    /*   -fx-border-color: white;
+       -fx-color: white;
+       -fx-faint-focus-color: white;
+       -fx-control-inner-background: white 10%;
+
+     */
+}
+
+
+#password:focused {
+    /*-fx-border-color: #8248B9;
+    -fx-color: #8248B9;
+    -fx-faint-focus-color: #8248B9;*/
+}
+
+
+
+
+

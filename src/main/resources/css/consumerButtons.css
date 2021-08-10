@@ -1,0 +1,271 @@
+.root {
+
+    -fx-base: #ECECEC;
+    -fx-control-inner-background: derive(-fx-base,80%);
+
+    FM_RED_WRONG: #D20035;
+    FM_RED_FAINT: #D2003522;
+    FM_GREEN_RIGHT: #32CD32;
+    FM_GREEN_FAINT: #32CD3222;
+
+    FM_SETTINGS_COLOR: #256C9B;
+    FM_SETTINGS_FAINT: #256C9B22;
+    FM_SETTINGS_BCKGND: #37A1E8;
+    /* The text label color */
+    FM_TEXT_LABEL: #FFFFFF; /* #F8B500 yellow */
+    FM_GREY: #393E46;
+
+    GREY_LT: #E8E8E8; /*lt purple*/
+    GREY_BUTTON: #B3B3B3; /* 48206E 3F0B70*/
+    FLASH_RED: #FC3C3C;
+    ROSE_RED: #E32E68;
+    FLASH_WHITE: #FFF4E0;
+    BUTTON_GREY: #D9D9D9;
+    BUTTON_PURPLE: #48206E; /* 48206E 3F0B70*/
+    BUTTON_COMPLIMENT: #D9D9D9;
+    /*BUTTON_COMPLIMENT: #8248B9;//*/
+    FOCUS_BLUE: #0096C9;
+
+}
+
+.button {
+    /*-fx-background-color: FLASH_WHITE;*/
+    -fx-text-fill: #393E46;
+    -fx-font-family: "Raleway-Medium.ttf";
+    -fx-cursor: hand;
+}
+
+#buttonBox {
+    -fx-background-color: FM_GREY; /* FM Red #FC3C3C */
+    /*-fx-background-color: FLASH_RED; *//* FM Red #FC3C3C */
+}
+
+#editorButtonBox {
+    -fx-background-color: FM_SETTINGS_COLOR;
+}
+
+#navButtonBox {
+    -fx-base: TRANSPARENT;
+    -fx-background-color: TRANSPARENT;
+    /*-fx-background-color: derive(-fx-base,20%);*/
+}
+
+
+#hypLink {
+    -fx-font-family: "Raleway";
+    -fx-wrap-text: true;
+    -fx-font-size: 12;
+}
+
+/* sign-in sign-up hyperlinks */
+#signInHyp {
+    -fx-font-size: 16px;
+    -fx-font-weight: 900;
+    -fx-text-fill: BUTTON_PURPLE;
+    -fx-cursor: hand;
+}
+#signInHyp:hover {
+    -fx-base: BUTTON_PURPLE;
+    -fx-text-fill: #3A0070;
+}
+#signInHyp:pressed {
+    -fx-base: BUTTON_PURPLE;
+    -fx-text-fill: derive(-fx-base,40%);
+    -fx-border-color: transparent;
+}
+
+
+
+
+#clearButton {
+    /* -fx-background-color: #0C73C5; */
+    -fx-border-radius: 0 3 3 0;
+    -fx-background-radius: 0 3 3 0;
+    -fx-border-width: 1;
+    -fx-border-color: #0E89EC; /* Focus blue is .. 0096C9 */
+}
+#clrBtn:hover {
+    -fx-background-color: rgba(247,247,247,0.85);
+}
+
+
+
+#drawToolButton {
+    -fx-background-color: #0C73C5;
+    -fx-border-radius: 0 3 3 0;
+    -fx-background-radius: 0 3 3 0;
+    -fx-border-color: #0E89EC;
+}
+
+
+
+#newDeckButton {
+    -fx-margin-bottom: 10;
+}
+
+
+
+#navButtonLight {
+    -fx-base: BUTTON_WHITE;
+    -fx-font-weight: 900;
+    -fx-background-radius: 0, 0, 0, 0;
+    /*-fx-text-fill: BUTTON_PURPLE;*/
+    -fx-background-color: derive(-fx-base,80%);
+    /*-fx-background-color: derive(-fx-base,20%);*/
+}
+#navButtonLight:hover {
+    -fx-base: FM_SETTINGS_BCKGND;
+    -fx-font-weight: 900;
+    -fx-background-color: derive(-fx-base,10%);
+}
+
+
+
+#navButtonBlue {
+    -fx-base: BUTTON_WHITE;
+    -fx-font-weight: 900;
+    -fx-text-fill: IKON_BLUE;
+    -fx-background-color: BUTTON_WHITE;
+    /*-fx-background-color: derive(-fx-base,20%);*/
+}
+#navButtonBlue:hover {
+    -fx-base: FM_SETTINGS_BCKGND;
+    -fx-font-weight: 900;
+    -fx-background-color: derive(-fx-base,10%);
+}
+
+#navButtonWhtLetters {
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-font-weight: 900;
+    /*-fx-text-fill: FLASH_WHITE;*/
+    -fx-background-color: TRANSPARENT;
+}
+#navButtonWhtLetters:hover {
+    -fx-base: FM_SETTINGS_BCKGND;
+    -fx-font-weight: 900;
+    -fx-background-color: derive(-fx-base,10%);
+}
+
+
+
+
+#purpleButton {
+    -fx-base: BUTTON_PURPLE;
+    -fx-font-weight: 900;
+    -fx-background-color: derive(-fx-base,50%);
+    /*-fx-text-fill: FLASH_WHITE;*/
+}
+#purpleButton:hover {
+    -fx-base: BUTTON_COMPLIMENT;
+    -fx-background-color: derive(-fx-base,40%);
+}
+
+
+
+#purpleButtonSquare {
+    -fx-base: BUTTON_PURPLE;
+    -fx-font-weight: 900;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-background-color: derive(-fx-base,80%);
+    /*-fx-text-fill: FLASH_WHITE;*/
+}
+#purpleButtonSquare:hover {
+    -fx-base: BUTTON_PURPLE;
+    -fx-background-color: derive(-fx-base,40%);
+}
+
+
+
+#roseButtonSquare {
+    -fx-font-weight: 900;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-background-color: ROSE_RED;
+    -fx-text-fill: FLASH_WHITE;
+}
+#roseButtonSquare:hover {
+    -fx-base: ROSE_RED;
+    -fx-font-weight: 900;
+    -fx-background-color: derive(-fx-base,40%);
+}
+
+#sellButton {
+    -fx-border-radius: 3 3 3 3;
+    -fx-border-width: 3;
+    -fx-font-weight: 900;
+    /*-fx-text-fill: FLASH_WHITE;*/
+    -fx-border-color: FM_SETTINGS_COLOR;
+    -fx-background-color: #2980b9;
+}
+
+#sellButton:hover {
+    -fx-base: FM_SETTINGS_BCKGND;
+    -fx-font-weight: 900;
+    -fx-background-color: derive(-fx-base,10%);
+}
+
+
+
+#resetButton {
+    -fx-base: BUTTON_GREY;
+    -fx-font-weight: 900;
+    -fx-background-color: -fx-base; /* derive(-fx-base,50%); */
+   /* -fx-text-fill: FLASH_WHITE;*/
+}
+#resetButton:hover {
+    -fx-base: BUTTON_GREY;
+    -fx-font-weight: 900;
+    -fx-background-color: derive(-fx-base,40%);
+}
+
+
+
+#searchButton {
+    /*-fx-background-color: #0C73C5; */
+    -fx-border-radius: 0 3 3 0;
+    -fx-background-radius: 0 3 3 0;
+    /*-fx-border-color: #0E89EC;*/
+}
+
+
+
+#Q_BUTTON {
+    -fx-background-radius: 20, 20;
+    -fx-background-insets: 0, 0;
+    -fx-border-radius: 18.5;
+    -fx-padding: 6 8 6 8;
+    -fx-border-color: dimgrey;
+}
+
+
+
+/* deleteMMBtn & deleteTCellBtn */
+#clrBtn {
+    /*-fx-background: -fx-base; /* window background */
+    /*-fx-background-color: transparent;*/
+
+    -fx-background-color: rgba(236,236,236,0.75);
+    -fx-background-radius: 15, 15, 15, 15;
+    -fx-background-insets: 0, 0;
+    -fx-border-radius: 15 15 15 15;
+    /*-fx-padding: 8 8 8 8;*/
+    -fx-border-width: 1;
+    /*-fx-border-color: ladder(-fx-base, derive(-fx-base, -25%), derive(-fx-base, -15%), derive(-fx-base, 7%));*/
+    -fx-border-color: -fx-inner-border, -fx-outer-border;
+}
+
+
+
+
+
+
+
+
+
+
+/*  NO css without "hover"
+#readFlashButton:hover {
+    -fx-base: BUTTON_COMPLIMENT;
+    -fx-font-weight: 900;
+    -fx-background-color: derive(-fx-base,40%);
+}
+ */

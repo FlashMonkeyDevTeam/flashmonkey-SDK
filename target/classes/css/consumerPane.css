@@ -1,0 +1,266 @@
+/*******************
+ * GENERAL STYLING *
+ *******************/
+
+.field-label-description,
+.field-value-description {
+    -fx-text-fill: red;
+}
+.root-pane {
+    -fx-padding: 0;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/font/Roboto-Medium.ttf');
+}
+@font-face {
+    font-family: 'CenturyGothicPro';
+    src: url('/font/Century Gothic.ttf');
+}
+@font-face {
+    font-family: 'Helvetica-Bold';
+    src: url('/font/WarowniaBd.otf')
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/font/Warownia.otf')
+}
+
+
+/*
+.flaticon .text {
+    -fx-font-family: 'Flaticon';
+}*/
+
+
+.lang-button {
+    -fx-border-color: dimgrey;
+    -fx-background-color: white;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+    -fx-border-width: 1px;
+    -fx-text-fill: dimgrey;
+    -fx-font-size: 24px;
+    -fx-cursor: hand;
+}
+
+.lang-button:disabled {
+    -fx-background-color: dimgrey;
+    -fx-opacity: 1;
+    -fx-text-fill: white;
+}
+
+.lang-button--left {
+    -fx-background-radius: 5px 0 0 5px;
+    -fx-border-radius: 5px 0 0 5px;
+}
+
+.lang-button--right {
+    -fx-background-radius: 0 5px 5px 0;
+    -fx-border-radius: 0 5px 5px 0;
+}
+
+.scroll-pane {
+    -fx-padding: 0;
+}
+
+.content {
+    -fx-padding: 0;
+}
+
+.controls {
+   // -fx-background-color: #e0e0e0;
+   // -fx-border-color: #b1b1b1;
+    -fx-border-width: 0 0 0 1px;
+}
+
+.save-button,
+.reset-button,
+.toggle-button {
+    -fx-font-size: 14px;
+    -fx-font-weight: normal;
+    -fx-text-alignment: center;
+    -fx-cursor: hand;
+    -fx-background-radius: 4px;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+}
+
+.save-button {
+    -fx-text-fill: #fff;
+    -fx-background-color: #337ab7;
+    -fx-border-color: darkblue;
+}
+
+.save-button:hover {
+    -fx-background-color: #2d6da4;
+}
+
+.save-button:pressed {
+    -fx-background-color: #286192;
+}
+
+.reset-button,
+.toggle-button {
+    -fx-text-fill: #333;
+    -fx-background-color: #fff;
+    -fx-border-color: #ababab;
+}
+
+.reset-button:hover,
+.toggle-button:hover {
+    -fx-background-color: #f0f0f0;
+}
+
+.reset-button:pressed {
+    -fx-text-fill: #fff;
+    -fx-background-color: red;
+    -fx-border-color: darkred;
+}
+
+
+/* remove group outline */
+.formsfx-group {
+    -fx-border-width: 0px;
+    /*-fx-border-color: TRANSPARENT;*/
+    -fx-border-insets: 0px;
+}
+
+#formPane {
+    -fx-border-color: #D9D9D9;
+    /*-fx-border-width: 0 0 0 0;*/
+    -fx-background-color: #D9D9D9;
+    -fx-margin-top: 20;
+    -fx-margin-bottom: 20;
+    -fx-padding: 10,0,10,0;
+    /* top-left, top-right, bottom-right, and bottom-left */
+    -fx-border-radius: 15 15 15 15;
+    -fx-background-radius: 15 15 15 15;
+}
+
+#infoPane {
+    -fx-border-color:  #D9D9D9;
+    -fx-background-color:  #D9D9D9;
+    -fx-margin-top: 20;
+    -fx-margin-bottom: 20;
+}
+
+#infoPane-label {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 24;
+    -fx-text-fill: #393E46; /* fm grey */
+}
+
+#infoPane-message {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 16;
+    -fx-wrap-text: true;
+    -fx-text-fill: #393E46; /* fm grey */
+}
+
+/* consumerPane */
+#topBar {
+    -fx-background-color: #9276AC;
+    -fx-pref-height: 40;
+    -fx-padding: 10,40,0,0;
+}
+
+#lowerBar {
+    -fx-background-color: #48206E;
+    -fx-pref-height: 40;
+}
+
+#cartBox {
+    -fx-font-family: "Helvetica";
+    -fx-background-color: #D9D9D9;
+    -fx-font-size: 14;
+    -fx-alignment: CENTER;
+}
+
+#infoPane {
+    -fx-padding: 10,4,0,4;
+}
+
+#titlePane {
+    -fx-padding: 0,20,0,4;
+}
+
+#pricePane {
+    -fx-pref-height: 40;
+    -fx-pref-width: 60;
+    -fx-background-color: #e2e2e2;
+}
+
+#teaserPane {
+    -fx-pref-height: 64;
+    -fx-pref-width: 128;
+    -fx-background-color: #e2e2e2;
+    -fx-cursor: default;
+}
+#teaserPane:hover {
+    -fx-background-color: #FFFFFF;
+    -fx-cursor: hand;
+}
+
+#payPane {
+    -fx-border-color: darkBlue;
+;
+}
+
+#white14 {
+    -fx-text-fill: #D9D9D9;
+    -fx-font-size: 14;
+}
+
+#norm16 {
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 16;
+}
+
+/* deckTitle */
+#bold16 {
+    -fx-font-family: "Helvetica-Bold";
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+}
+
+#purple14 {
+    /*-fx-font-family: "Raleway-Medium.ttf";*/
+    -fx-text-fill: #9276AC;
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
+
+#purpleRight {
+    -fx-text-fill: #9276AC;
+}
+
+#description {
+    -fx-font-family: "CenturyGothicPro";
+    -fx-font-size: 14;
+    -fx-text-fill: #4d4d4d;
+}
+
+#title {
+    -fx-font-family: "Helvetica-Bold";
+    -fx-font-size: 16;
+    -fx-text-fill: #4d4d4d;
+}
+
+#deckLbl {
+    -fx-font-family: "Helvetica-Bold";
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-text-fill: #3d3d3d;
+}
+
+#link {
+    -fx-font-family: "Helvetica-Bold";
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
+
+
+
+
