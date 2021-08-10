@@ -1,8 +1,8 @@
+![FlashMonkey logo](./readme_resources/horiz_logo_blue_78x500.png)
+
 # FlashMonkey developer interface
 **FlashMonkey Proprietary**
 _Do not disclose outside of FlashMonkey Inc._
-
-![FlashMonkey logo](./readme_resources/horiz_logo_blue_78x500.png)
 
 
 This is the repository for the Patent Pending FlashMonkey intelligent study application. FlashMonkey is an interactive 
