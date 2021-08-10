@@ -7,7 +7,7 @@ public class TypeInterfaceTesterNode {
     }
 
     /** ****** INNER CLASS ******
-     * Inner class used to create a binary tree node
+     * Inner class to create a node
      * Contains Node left and right. Contains full
      * constructor and toString method.
      *
@@ -15,8 +15,6 @@ public class TypeInterfaceTesterNode {
     public static class Node<E> {
 
         protected E data;
-        public Node<E> left;
-        public Node<E> right;
         protected int balance;
 
 
@@ -27,8 +25,6 @@ public class TypeInterfaceTesterNode {
          */
         public Node(E data) {
             this.data = data;
-            left = null;
-            right = null;
             balance = 0;
         }
 
@@ -38,8 +34,6 @@ public class TypeInterfaceTesterNode {
          */
         public Node(E data, Node notused) {
             this.data = data;
-            left = null;
-            right = null;
             balance = 0;
         }
 

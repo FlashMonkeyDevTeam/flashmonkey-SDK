@@ -13,7 +13,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1863d91f-0da9-467b-b2bd-446c55156f07" name="Default Changelist" comment="Initial Commit" />
+    <list default="true" id="1863d91f-0da9-467b-b2bd-446c55156f07" name="Default Changelist" comment="Initial Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datastructures/TypeInterfaceTesterNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/TypeInterfaceTesterNode.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,11 +89,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Me\IdeaProjects\flashmonkey-developer-interface" />
+      <recent name="C:\Users\Me\IdeaProjects\flashmonkey-developer-interface\readme_resources" />
       <recent name="C:\Users\Me\IdeaProjects\flashmonkey-developer-interface\src\main\java\type\testtypes" />
       <recent name="C:\Users\Me\IdeaProjects\flashmonkey-developer-interface\src\main\java\flashmonkey" />
       <recent name="C:\Users\Me\IdeaProjects\flashmonkey-developer-interface\src\main\java" />
-      <recent name="C:\Users\Me\IdeaProjects\flashmonkey-developer-interface\src\main\java\type\tools" />
-      <recent name="C:\Users\Me\IdeaProjects\flashmonkey-betaB\src\main\resources\image\logo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Me\IdeaProjects\flashmonkey-betaB\src\main\resources\image\logo" />
@@ -578,7 +583,8 @@
       <workItem from="1628204570776" duration="7594000" />
       <workItem from="1628222269914" duration="2634000" />
       <workItem from="1628232774607" duration="6870000" />
-      <workItem from="1628568192069" duration="1040000" />
+      <workItem from="1628568192069" duration="1803000" />
+      <workItem from="1628605755223" duration="5128000" />
     </task>
     <task id="LOCAL-00001" summary="Creating deck search, &amp; several bug fixes">
       <created>1597019756650</created>
@@ -804,7 +810,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627241126496</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Initial Commit">
+      <created>1628570019796</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1628570019796</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -828,7 +841,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Deck Search first query to DB completed." />
     <MESSAGE value="Added ability for ComboBoxAutoComplete to use Strings derived from DataBase." />
     <MESSAGE value="Fixed Forms API bug on backspace and delete." />
     <MESSAGE value="Working on security and link ambiguation. Downloading completed" />
@@ -853,7 +865,8 @@
     <MESSAGE value="Log in system updates for connected and unconnected scenarios" />
     <MESSAGE value="Sign-in capabilities updated." />
     <MESSAGE value="Color changes to buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Color changes to buttons" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
