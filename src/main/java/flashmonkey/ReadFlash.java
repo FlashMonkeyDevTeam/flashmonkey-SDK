@@ -612,6 +612,7 @@ public final class ReadFlash {
         }
 
 
+        FMWalker.getInstance().setToFirst();
         FlashCardMM currentCard = (FlashCardMM) FMWalker.getInstance().getCurrentNode().getData();
         
         System.err.println("\tCurrentCard data is null? " + (currentCard.getQText() == null));

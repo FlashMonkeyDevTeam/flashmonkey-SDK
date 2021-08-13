@@ -13,187 +13,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1863d91f-0da9-467b-b2bd-446c55156f07" name="Default Changelist" comment="Added FillinTheBlank to test Package">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jasync_sql_jasync_pool_1_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_swing_11_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_stripe_stripe_java_20_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava2_rxjava_2_2_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_14_0_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_14_0_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_14_0_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_14_0_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_14_0_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_14_0_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_14_0_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_win_14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_win_14_0_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_swing_11_ea_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_swing_win_11_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_swing_win_11_ea_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_14_0_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_win_14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_win_14_0_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flashmonkey-deploy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flashmonkey-deploy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flashmonkey/FlashCardOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flashmonkey/FlashCardOps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flashmonkey/FlashMonkeyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flashmonkey/FlashMonkeyMain.java" afterDir="false" />
+    <list default="true" id="1863d91f-0da9-467b-b2bd-446c55156f07" name="Default Changelist" comment="Fixed bug in deck save. QnA study mode is working">
       <change beforePath="$PROJECT_DIR$/src/main/java/flashmonkey/ReadFlash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flashmonkey/ReadFlash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fmtree/FMWalker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fmtree/FMWalker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/type/testtypes/MultiChoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/type/testtypes/MultiChoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uicontrols/FMAlerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uicontrols/FMAlerts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/common/FMFields$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/FMFields$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/common/FMFields$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/FMFields$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/common/FMFields$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/FMFields$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/common/FMFields$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/FMFields$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/common/FMFields.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/FMFields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datastructures/TypeInterfaceTesterNode$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datastructures/TypeInterfaceTesterNode$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datastructures/TypeInterfaceTesterNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datastructures/TypeInterfaceTesterNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fileops/FileOpsShapes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fileops/FileOpsShapes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/Answer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/AppLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/AppLauncher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/CreateFlash$CardSaver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/CreateFlash$CardSaver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/CreateFlash$TestMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/CreateFlash$TestMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/CreateFlash.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/CreateFlash.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/FMPopUpMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/FMPopUpMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/FMToolTip.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/FMToolTip.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/FMTransition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/FMTransition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/FlashCardMM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/FlashCardMM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/FlashCardOps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/FlashCardOps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/FlashMonkeyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/FlashMonkeyMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/Question.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/ReadFlash.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/ReadFlash.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fmtree/FMWalker$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fmtree/FMWalker$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fmtree/FMWalker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fmtree/FMWalker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/multimedia/AnswerMM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/multimedia/AnswerMM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/multimedia/QuestionMM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/multimedia/QuestionMM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/queue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/queue/ArrayQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/queue/QueueIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/queue/QueueIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/AnimaterInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/AnimaterInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/CopyPasteInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/CopyPasteInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/FMMouseInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/FMMouseInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/cardtypes/DoubleHorzCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/cardtypes/DoubleHorzCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/cardtypes/DoubleVertCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/cardtypes/DoubleVertCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/cardtypes/GenericCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/cardtypes/GenericCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/cardtypes/SingleCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/cardtypes/SingleCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/celleditors/DrawTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/celleditors/DrawTools.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/celleditors/SectionEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/celleditors/SectionEditor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/celleditors/ShapesEditorPopup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/celleditors/ShapesEditorPopup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/celltypes/CanvasCell$InnerShapesClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/celltypes/CanvasCell$InnerShapesClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/celltypes/CanvasCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/celltypes/CanvasCell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/celltypes/GenericCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/celltypes/GenericCell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/celltypes/MediaPopUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/celltypes/MediaPopUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/celltypes/TextCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/celltypes/TextCell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/ColorsEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/ColorsEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/DrawObj.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/DrawObj.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/FMText.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/FMText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/FMTextEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/FMTextEditor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/FontAttributes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/FontAttributes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/ArrowBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/ArrowBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/CircleBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/CircleBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMArrow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMArrow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMCircle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMCircle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMDrawText.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMDrawText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMFreeform.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMFreeform.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMLetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMLetter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMPolyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMPolyLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMPolygon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMPolygon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMRectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMRectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMTriangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/FreeformBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/FreeformBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/GenericBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/GenericBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/GenericShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/GenericShape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/LetterBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/LetterBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/PolygonBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/PolygonBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/PolylineBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/PolylineBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/RectangleBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/RectangleBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/TriangleBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/TriangleBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/Utility$Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/Utility$Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/Utility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/sectiontype/DoubleCellSection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/sectiontype/DoubleCellSection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/sectiontype/GenericSection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/sectiontype/GenericSection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/sectiontype/SingleCellSection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/sectiontype/SingleCellSection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/AIMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/AIMode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/FMHashCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/FMHashCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/FillnTheBlank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/FillnTheBlank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/GenericTestType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/GenericTestType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/GraphCard$LargeGraphPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/GraphCard$LargeGraphPane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/GraphCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/GraphCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/MathCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/MathCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/MultiChoice$Test$HashObj.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/MultiChoice$Test$HashObj.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/MultiChoice$Test$TestForRepeats.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/MultiChoice$Test$TestForRepeats.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/MultiChoice$Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/MultiChoice$Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/MultiChoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/MultiChoice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/NoteTaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/NoteTaker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/QandA$QandASession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/QandA$QandASession.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/QandA$QandATest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/QandA$QandATest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/QandA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/QandA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/TestList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/TestList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/TurnInAudio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/TurnInAudio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/DijkstraParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/DijkstraParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/ExpNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/ExpNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/OperatorInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/OperatorInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/imagery/Fit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/imagery/Fit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/ButtoniKon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/ButtoniKon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/ButtoniKonClazz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/ButtoniKonClazz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/FMAlerts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/FMAlerts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/FxNotify.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/FxNotify.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/SceneCntl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/SceneCntl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/UIColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/UIColors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/api/FMNotifications$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/api/FMNotifications$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/api/FMNotifications$NotificationPopupHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/api/FMNotifications$NotificationPopupHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/api/FMNotifications$NotificationPopupHandler$CustomTransition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/api/FMNotifications$NotificationPopupHandler$CustomTransition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/api/FMNotifications$NotificationPopupHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/api/FMNotifications$NotificationPopupHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/api/FMNotifications.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/api/FMNotifications.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/icons/FlashMonkeyIkon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/icons/FlashMonkeyIkon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/icons/IkonHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/icons/IkonHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/flashmonkey-deploy-1.1.0-SNAPSHOT-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/flashmonkey-deploy-1.1.0-SNAPSHOT-shaded.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/flashmonkey-deploy-1.1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/flashmonkey-deploy-1.1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -766,7 +590,7 @@
       <workItem from="1628738083498" duration="8956000" />
       <workItem from="1628800218403" duration="1508000" />
       <workItem from="1628801751501" duration="1748000" />
-      <workItem from="1628817241418" duration="15803000" />
+      <workItem from="1628817241418" duration="16105000" />
     </task>
     <task id="LOCAL-00001" summary="Creating deck search, &amp; several bug fixes">
       <created>1597019756650</created>
@@ -1020,7 +844,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628720441736</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Fixed bug in deck save. QnA study mode is working">
+      <created>1628879921611</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1628879921611</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1044,7 +875,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Completed Security and link ambiguation. uploading completed, downloading completed" />
     <MESSAGE value="Working on completing and debugging Security, and link ambiguity" />
     <MESSAGE value="With exception to bugs, link ambiguation is complete for S3 media and deck operations." />
     <MESSAGE value="Corrected bugs for deck metadata and user account forms" />
@@ -1069,7 +899,8 @@
     <MESSAGE value="Provided changes to the license and other minor corrections" />
     <MESSAGE value="minor corrections to readme" />
     <MESSAGE value="Added FillinTheBlank to test Package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added FillinTheBlank to test Package" />
+    <MESSAGE value="Fixed bug in deck save. QnA study mode is working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug in deck save. QnA study mode is working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1337,7 +1168,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/ReadFlash.java</url>
-          <line>654</line>
+          <line>655</line>
           <option name="timeStamp" value="206" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1352,7 +1183,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/ReadFlash.java</url>
-          <line>652</line>
+          <line>653</line>
           <option name="timeStamp" value="224" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
