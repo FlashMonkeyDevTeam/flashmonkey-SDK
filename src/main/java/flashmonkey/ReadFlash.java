@@ -134,8 +134,6 @@ public final class ReadFlash {
     private Button deckSelectButton;
     // private static boolean hint = false;
     /** MENU BUTTONS **/
-    /** resets flashList and sends EncryptedUser.EncryptedUser to the firstScene **/
-    // protected static Button fileSelectButton = new Button(" < | Study deck selection");
 
     // *** LABELS ***
     private static Label deckNameLabel;// = new Label(FC_OBJ.FO.getFileName());
@@ -184,9 +182,6 @@ public final class ReadFlash {
     public Scene readScene() {
         LOGGER.info("\n\n **** createReadScene() called ****");
         LOGGER.setLevel(Level.DEBUG);
-        LOGGER.debug("Set ReadFlash LOGGER to debug");
-
-
 
      // NORTH & CENTER PANES read fields
         rpNorth = new HBox(2);
@@ -279,7 +274,7 @@ public final class ReadFlash {
      * @param e
      */
     private void shortcutKeyActions(KeyEvent e) {
-        FlashCardMM currentCard = (FlashCardMM) FMWalker.getCurrentNode().getData();
+        FlashCardMM currentCard = (FlashCardMM) FMWalker.getInstance().getCurrentNode().getData();
         GenericTestType test = TestList.selectTest( currentCard.getTestType() );
 
         if (e.isAltDown() || e.isShiftDown()) {
@@ -325,12 +320,12 @@ public final class ReadFlash {
 
     /**
      * Helper Method to ReadScene. Action when list has cards.
-     * Builds tree, and sets values in appropriate panes.
+     * Builds the gridPane that contains the buttons for
+     * the Study Mode menu.
      * @return
      */
     private GridPane listHasCardsAction() {
         LOGGER.debug("listHasCardsAction() called");
-
 
         Label label = new Label("Study Mode");
         label.setId("label24White");
@@ -392,7 +387,7 @@ public final class ReadFlash {
     {
 
         //Node currentNode = FMTWalker.getCurrentNode();
-        FlashCardMM currentCard = (FlashCardMM) FMWalker.getCurrentNode().getData();
+        FlashCardMM currentCard = (FlashCardMM) FMWalker.getInstance().getCurrentNode().getData();
 
         rpCenter.getChildren().clear();
         // All of the work is accessed from selectTest()
@@ -436,7 +431,7 @@ public final class ReadFlash {
         FMWalker.getInstance().getNext();
 
         // Node currentNode = FMTWalker.getCurrentNode();
-        FlashCardMM currentCard = (FlashCardMM) FMWalker.getCurrentNode().getData();
+        FlashCardMM currentCard = (FlashCardMM) FMWalker.getInstance().getCurrentNode().getData();
 
         rpCenter.getChildren().clear();
         // All of the work is accessed from selectTest()
@@ -482,7 +477,7 @@ public final class ReadFlash {
         //visIndex = 1;
         FMWalker.getInstance().setToFirst();
 
-        FlashCardMM currentCard = (FlashCardMM) FMWalker.getCurrentNode().getData();
+        FlashCardMM currentCard = (FlashCardMM) FMWalker.getInstance().getCurrentNode().getData();
 
         rpCenter.getChildren().clear();
         GenericTestType test = TestList.selectTest( currentCard.getTestType() );
@@ -520,7 +515,7 @@ public final class ReadFlash {
     private void endQButtonAction(ActionEvent e) {
 
         //Node currentNode = TR.getCurrentNode();
-        FlashCardMM currentCard = (FlashCardMM) FMWalker.getCurrentNode().getData();
+        FlashCardMM currentCard = (FlashCardMM) FMWalker.getInstance().getCurrentNode().getData();
 
         rpCenter.getChildren().clear();
         GenericTestType test = TestList.selectTest( currentCard.getTestType() );
@@ -617,7 +612,7 @@ public final class ReadFlash {
         }
 
 
-        FlashCardMM currentCard = (FlashCardMM) FMWalker.getCurrentNode().getData();
+        FlashCardMM currentCard = (FlashCardMM) FMWalker.getInstance().getCurrentNode().getData();
         
         System.err.println("\tCurrentCard data is null? " + (currentCard.getQText() == null));
         mode = 't';
@@ -649,20 +644,23 @@ public final class ReadFlash {
      * This action sets the scene to the simple question and answer mode
      * Uses treeWalker
      */
-    protected void qaButtonAction()
-    {
+    protected void qaButtonAction() {
         if(! rpCenter.getChildren().isEmpty()) {
             rpCenter.getChildren().clear();
         }
-    
 
-        FlashCardMM currentCard = (FlashCardMM) FMWalker.getCurrentNode().getData();
+        System.out.println("dataStructure length in FMWalker: " + FMWalker.getInstance().length());
+        FMWalker.getInstance().setToFirst();
+
+        System.out.println("Is FMWalker.getCurrentNode == null: " + FMWalker.getInstance().getCurrentNode());
+        System.out.println("Is FMWalker.getCurrentNode.getCurrentNode().getData() == null: " + FMWalker.getInstance().getCurrentNode().getData());
+
+        FlashCardMM currentCard = (FlashCardMM) FMWalker.getInstance().getCurrentNode().getData();
         rpCenter.getChildren().add( QandA.QandASession.getInstance().getTReadPane(currentCard, GEN_CARD, rpCenter));
         //studyButton.setText("Back");
         masterBPane.setCenter(rpCenter);
         mode = 'q';
         masterBPane.setBottom(manageSouthPane('q'));
-
     }
 
 

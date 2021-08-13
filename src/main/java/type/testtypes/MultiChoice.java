@@ -259,22 +259,14 @@ public class MultiChoice implements GenericTestType<MultiChoice>
     {
         LOGGER.debug("\n~*~*~ Answer ButtAction called ~*~*~");
 
-        final FlashCardMM currentCard = (FlashCardMM) FMWalker.getCurrentNode().getData();
+        final FlashCardMM currentCard = (FlashCardMM) FMWalker.getInstance().getCurrentNode().getData();
         final FlashCardOps fo = FlashCardOps.getInstance();
         final ReadFlash rf = ReadFlash.getInstance();
 
         // card from the arrayList - Used to update data in the ArrayList Card
         FlashCardMM listCard = fo.getFlashList().get(currentCard.getANumber());
 
-        // end the timer
-        //test.time.end();
 
-        //listCard.setSeconds((int)(test.time.getTotalTime() / 1000));
-        //test.time = null;
-
-        //double progress = ReadFlash.getInstance().getProgress();
-
-        //LOGGER.debug("in ansButtonAction and progress: " + progress + " | and treeWalkerCount: " + FMWalker.getCount());
 
         /** if the referance to the currentCard.answer == the
          * users choice, question was answered correctly */

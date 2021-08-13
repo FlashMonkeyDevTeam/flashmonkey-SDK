@@ -63,9 +63,9 @@ public class FMAlerts {
 		alert.setHeaderText(null);
 		alert.setContentText(alertMsg);
 		
-		//ImageView sunglasses = new ImageView("emojis/flashFaces_sunglasses_60.png");
-		ImageView emojiView = new ImageView(emojiPath);
-		alert.setGraphic(emojiView);
+		ImageView sunglasses = new ImageView("File: image/flashFaces_sunglasses_60.png");
+		//ImageView emojiView = new ImageView(emojiPath);
+		alert.setGraphic(sunglasses);
 		alert.setHeight(190);
 		alert.setWidth(200);
 		alert.getDialogPane().contentTextProperty().toString();//   setStyle(" -fx-text-fill: #FFFFFF");

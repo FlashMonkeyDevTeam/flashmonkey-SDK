@@ -20,6 +20,7 @@
 package flashmonkey;
 
 import ch.qos.logback.classic.Level;
+import fmtree.FMWalker;
 import javafx.application.Application;
 import javafx.geometry.*;
 import javafx.scene.Scene;
@@ -102,6 +103,7 @@ public class FlashMonkeyMain extends Application {
     @Override
     public void start(Stage primaryStage) {
         LOGGER.setLevel(Level.DEBUG);
+        FMWalker fmWalker = FMWalker.getInstance();
         // set to call stop() when stage is closed
         //primaryStage.setOnHidden( e -> stop());
         // reporting app performace to DB

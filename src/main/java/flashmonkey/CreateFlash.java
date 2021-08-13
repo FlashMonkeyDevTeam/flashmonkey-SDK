@@ -15,10 +15,7 @@
  *  DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE.  NO USE OF ANY COVERED
  *  CODE IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER.
  *
- */
-
-/*
- * AUTHOR: Lowell Stadelman 
+ * @author: Lowell Stadelman
  */
 
 package flashmonkey;
@@ -29,6 +26,7 @@ package flashmonkey;
 import ch.qos.logback.classic.Level;
 
 
+import fmtree.FMWalker;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.geometry.Bounds;
@@ -57,6 +55,7 @@ import type.testtypes.TestList;
 import uicontrols.ButtoniKon;
 
 import uicontrols.FMAlerts;
+import uicontrols.FxNotify;
 import uicontrols.SceneCntl;
 
 
@@ -272,11 +271,7 @@ public final class CreateFlash<C extends GenericCard> {
         
         LOGGER.debug("called createFlashScene()");
 
-
-        // Label at top of window
-        // Get deck name from readflash.
-
-        // Set id for style in CSS
+        // local
         FlashCardOps fcOps = FlashCardOps.getInstance();
 
         
@@ -385,8 +380,10 @@ public final class CreateFlash<C extends GenericCard> {
             cfpCenter.getChildren().addAll(entryComboBox.getValue().getTestType().getTEditorPane(creatorList, editorU, editorL));
         });
 
+        Label label = new Label(ReadFlash.getInstance().getDeckName());
+        label.setId("label");
         // Add comboBox to buttonBox
-        cfpNorth.getChildren().addAll(entryComboBox, new Text("TestDeck"));
+        cfpNorth.getChildren().addAll(entryComboBox, label );
         
         //****         CFP SOUTH AND BUTTON ACTIONS         ***
         // CFP south contains buttons gauges and non content control/information
@@ -407,6 +404,9 @@ public final class CreateFlash<C extends GenericCard> {
         // the initial displayed element "last in list" is empty. Other
         // cards are handled by nav buttons
 
+        if(FMWalker.getInstance().getCurrentNode() != null) {
+            FMWalker.getInstance().setCurrentNode(currentCard);
+        }
 
         return masterScene;
 
@@ -564,18 +564,14 @@ public final class CreateFlash<C extends GenericCard> {
 
         //  "Add" & "Save" Buttons in the south pane
         insertCardButton = ButtoniKon.getInsertCardButton();
-        
-        // Actions and buttons
-        insertCardButton.setOnAction(e -> {
-            insertCardAction(listIdx);
-            editorU.tCell.getTextArea().requestFocus();
-        });
+
         
         // Save button & Action.
         // Exits createFlash scene
         saveDeckButton = ButtoniKon.getSaveDeckButton();
         saveDeckButton.setOnAction(e ->
         {
+            saveDeckAction();
             // May cause a NullPointerException if
             // there is not a popUp pane open from
             // both of these.
@@ -686,6 +682,7 @@ public final class CreateFlash<C extends GenericCard> {
             editorU.setPrompt(makeQPrompt(listIdx));
             editorL.setPrompt("Enter answer");
             setUIFields(currentCard);
+            FMWalker.getInstance().setCurrentNode(currentCard);
         }
 
         // Enable buttons according to idx
@@ -737,6 +734,7 @@ public final class CreateFlash<C extends GenericCard> {
             FlashCardMM currentCard = creatorList.get(listIdx);
             editorU.setPrompt(makeQPrompt(listIdx));
             setUIFields(currentCard);
+            FMWalker.getInstance().setCurrentNode(currentCard);
         }
         // if there is an exit, should data be saved.
         // flashListChanged = true;
@@ -868,26 +866,6 @@ public final class CreateFlash<C extends GenericCard> {
         return true;
     }
     
-    /* ------------------------------------------------------- **/
-    
-    private void insertCardAction(int prevCNum) {
-    
-        LOGGER.info("\n *** insertCardAction() *** \n");
-        LOGGER.debug("\t creatorList size: {}", creatorList.size() + 1);
-    
-        // create new card for next round.
-        currentCard = new FlashCardMM();
-        // insert new card at the current location
-        creatorList.add(listIdx, currentCard);
-        currentCard.setCNumber(listIdx);
-    
-        // Reset
-        editorU.resetSection();
-        editorL.resetSection();
-        //gT.reset();
-        
-    }
-    
 
     /* ------------------------------------------------------- **/
 
@@ -980,21 +958,11 @@ public final class CreateFlash<C extends GenericCard> {
                 break;
             }
         }
-        
-        
     
         editorU.resetSection();
         editorL.resetSection();
         
         setUIFields(creatorList.get(listIdx));
-    }
-
-    public boolean saveCurrentCardExt() {
-        if( ! flashListChanged) {
-            return false;
-        }
-        CardSaver cs = new CardSaver();
-        return cs.saveCard(this.editorU, this.editorL);
     }
 
 
@@ -1007,7 +975,7 @@ public final class CreateFlash<C extends GenericCard> {
     
         /**
          * Returns true if the user requests to return to the editor
-         * else it continues.
+         * else it continues and saves the card.
          * @param editorU
          * @param editorL
          * @return
@@ -1019,7 +987,7 @@ public final class CreateFlash<C extends GenericCard> {
             // choice.
             int result = checkContent(editorU, editorL);
             LOGGER.debug("saveCard(...) param \"result\": <{}>", result);
-    
+
             int ret = statusResponse(result);
 
             LOGGER.debug("status response returned: <{}>", result);
@@ -1027,11 +995,7 @@ public final class CreateFlash<C extends GenericCard> {
                 return true;
             }
             if (ret == 1) {
-                if (listIdx < creatorList.size() -1 && listIdx > -1) {
-                    saveEdtdCardInCreator(currentCard);
-                } else {
-                    addCardAction();
-                }
+                addCardAction();
             }
             return false;
         }
@@ -1039,7 +1003,7 @@ public final class CreateFlash<C extends GenericCard> {
 
         /**
          * DESCRIPTION: Adds flashCard (question and answer objects)
-         * to the creatorList arrayList. Send media to the cloud
+         * to the creatorList arrayList.
          */
         private void addCardAction() {
             LOGGER.info("\n *** addCardAction() *** \n");
@@ -1096,10 +1060,10 @@ public final class CreateFlash<C extends GenericCard> {
                     editorL.getMediaFiles(),    // String[] of media files
                     new ArrayList<Integer>()    // Arraylist of other correct answers
             );
-        
+
+            creatorList.add(currentCard);
             // create new card for next round.
             currentCard = new FlashCardMM();
-            creatorList.add(currentCard);
         
             // Reset
             editorU.resetSection();
@@ -1114,39 +1078,6 @@ public final class CreateFlash<C extends GenericCard> {
     
     
         /* ------------------------------------------------------- **/
-    
-        
-        
-        /**
-         * Saves edits to the existing card in the  creatorList.
-         * @param currentCard
-         * @return returns true if there is a test in this card!?!
-         */
-        private void saveEdtdCardInCreator(FlashCardMM currentCard) {
-        
-            LOGGER.debug(" *** CALLED SAVE EDITS IN CREATOR *** ");
-
-                GenericTestType gA = entryComboBox.getValue().getTestType();
-                // do not change the card number here unless
-                // the user re-orders the deck.
-
-                currentCard.setQText(editorU.getText());
-                currentCard.setAText(editorL.getText());
-                currentCard.setQType(editorU.getMediaType());
-                currentCard.setAType(editorL.getMediaType());
-                // saves the double array as is
-                //@TODO save media in edited card to cloud.
-                currentCard.setQFiles(editorU.getMediaFiles());
-                // saves the double array as is
-                currentCard.setAFiles(editorL.getMediaFiles());
-            
-                currentCard.setTestType(gA.getTestType());
-                currentCard.setCardLayout(gA.getCardLayout());
-
-        }
-    
-    
-    
     
         /**
          * <p>Provides an int and response based on the int returned from
@@ -1222,7 +1153,6 @@ public final class CreateFlash<C extends GenericCard> {
          */
         private int checkContent(SectionEditor editorU, SectionEditor editorL) {
            // LOGGER.debug("checkContent: is text empty? editorU: {}, editorL {} \nis there an image?: {} ", editorU.getText().isEmpty(), editorL.getText().isEmpty(), (editorL.getMediaFiles()[0] != null));
-        
             int stat = 0;
             // Is there a test type selected?
             if (getTestType() != null) {
@@ -1252,7 +1182,6 @@ public final class CreateFlash<C extends GenericCard> {
         
             return stat;
         }
-        
     }
 
     /* ------------------------------------------------------- **/
@@ -1281,6 +1210,72 @@ public final class CreateFlash<C extends GenericCard> {
     }
 
     /* ------------------------------------------------------- **/
+
+    /**
+     * Exits to menu and Saves the flashcard arraylist to the
+     * binary file named/selected by the user at program start.
+     * Also saves media and file to cloud. Saves users edits in the
+     * shapesPane if open.
+     */
+    protected void saveDeckAction() {
+        LOGGER.info(" saveDeckAction ");
+
+        // Check content and save, or give user
+        // an error message. Respond based on user
+        // choice.
+        CardSaver cs = new CardSaver();
+        boolean ret = cs.saveCard(editorU, editorL);
+        // If requested, then
+        // then return user to screen.
+        if(ret) {
+            return;
+        }
+        //If there are changes. Save them.
+        if (flashListChanged || !ret) {
+
+            // Save the current card or not
+            FlashCardMM card = creatorList.get(creatorList.size() - 1);
+            if (card.getQText().isEmpty() || card.getQFiles().length > 0) {
+                LOGGER.debug("calling saveButtonActionHelper. last cardQtext is empty. minus: -");
+                saveDeckActionHelper('-');
+            } else {
+                // Save deck metadata to DB.
+                LOGGER.debug("calling saveButtonActionHelper. minus: +");
+                saveDeckActionHelper('+');
+            }
+            FlashMonkeyMain.setWindowToNav();
+
+        } else {
+            // There is no content in the upper and lower editors
+            // There is nothing to save, Give the authcrypt.user
+            // a message
+            String emojiPath = "image/Flash_hmm_75.png";
+            String message   = "There are no changes to save." +
+                    "\n If you're finished, click quit. ";
+            FxNotify.notificationBlue("Ouch!", message, Pos.CENTER, 5,
+                    emojiPath, FlashMonkeyMain.getWindow());
+        }
+    }
+
+
+    /* ------------------------------------------------------- **/
+
+
+    /**
+     * helper method to saveDeckAction
+     * Saves the creator list to file.
+     */
+    private void saveDeckActionHelper(char minus) {
+
+        LOGGER.info("saveButtonActionHelper char minus: <{}>, num cards <{}>", minus, creatorList.size());
+        FlashCardOps fo = FlashCardOps.getInstance();
+        fo.clearFlashList();
+        fo.setFlashList(creatorList);
+        creatorList.clear();
+    }
+
+    /* ------------------------------------------------------- **/
+
 
     /**
      * Sets the prompt based upon the length of the creatorList
@@ -1362,9 +1357,9 @@ public final class CreateFlash<C extends GenericCard> {
     public Point2D getPrevBtnXY() {
         Bounds bounds = prevQButton.getLayoutBounds();
         return prevQButton.localToScreen(bounds.getMinX() + 10, bounds.getMinY() + 10);
-        
+
     //    xxxxxx images are not working... we redid the media naming to use the new  cID / cHash.
-        
+
     }
 
     @FMAnnotations.DoNotDeployMethod
@@ -1419,12 +1414,12 @@ public final class CreateFlash<C extends GenericCard> {
         Bounds bounds = entryComboBox.getLayoutBounds();
         return entryComboBox.localToScreen(bounds.getMinX() + 10, bounds.getMinY() + 10);
     }
-    
+
     @FMAnnotations.DoNotDeployMethod
     public DeckMetaModel getMetaModelObj() {
         return metaPane.getModel();
     }
-    
+
     @FMAnnotations.DoNotDeployMethod
     public Point2D getFormMinXY() {
         Double x = metaWindow.getX();

@@ -23,7 +23,10 @@ package flashmonkey;
 import common.FMFields;
 import java.io.*;
 import java.util.*;
-import org.slf4j.LoggerFactory;
+
+import fmtree.FMWalker;
+import org.junit.platform.commons.logging.LoggerFactory;
+//import org.slf4j.LoggerFactory;
 
 
 
@@ -55,25 +58,25 @@ import org.slf4j.LoggerFactory;
  * unless they are using it for study sessions. </li>
  * </ul>
  *
- * @version iOOily FlashMonkeyMM Date: 2018/08/04
  * @author Lowell Stadelman
  * @TODO deserialize files with restrictions. ValidatingObjectInputStream in = new ValidatingObjectInputStream(fileInput); in.accept(Foo.class);
  ******************************************************************************/
 
-public class FlashCardOps//< T extends Comparable<T>> extends FlashCardMM<T> implements Comparable<T>
-{
+public class FlashCardOps {//< T extends Comparable<T>> extends FlashCardMM<T> implements Comparable<T>
     /* SINGLETON */
     //private volatile static FlashCardOps CLASS_INSTANCE;
     private static FlashCardOps CLASS_INSTANCE;
     
     // Logging reporting level is set in src/main/resources/logback.xml
-    private final static ch.qos.logback.classic.Logger LOGGER = (ch.qos.logback.classic.Logger) LoggerFactory.getLogger(FlashCardOps.class);
 
+    private final static ch.qos.logback.classic.Logger LOGGER = (ch.qos.logback.classic.Logger) org.slf4j.LoggerFactory.getLogger(FlashCardOps.class);
 
     private static final long serialVersionUID = FlashMonkeyMain.VERSION;
     // count, To keep track of when flashCards are added to an array.
     // Prevents unneccessary communications with
     // cloud servers.
+
+
 
     private static String fileName = "default";
 
@@ -109,7 +112,16 @@ public class FlashCardOps//< T extends Comparable<T>> extends FlashCardMM<T> imp
      * @param flashList
      */
     public void setFlashList(ArrayList<FlashCardMM> flashList) {
-        this.flashListMM = flashList;
+        //this.flashListMM = flashList;
+        if(flashListMM == null) {
+            flashListMM = new ArrayList<>(4);
+        } else {
+            flashListMM.clear();
+        }
+
+        for(FlashCardMM f : flashList) {
+            flashListMM.add(f);
+        }
     }
 
 

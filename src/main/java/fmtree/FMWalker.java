@@ -19,6 +19,10 @@
 
 package fmtree;
 
+ import flashmonkey.FlashCardMM;
+ import flashmonkey.FlashCardOps;
+
+ import java.util.ArrayList;
  import java.util.LinkedList;
 
 /**
@@ -28,10 +32,7 @@ public final class FMWalker<T extends Comparable<T>>  {
 
     private static FMWalker CLASS_INSTANCE;
 
-    private static LinkedList<Node> dataStructure;
 
-    private static Node root;
-    //private Node tempParent = null;
     // The current node being used.
     private static Node currentNode;
 
@@ -41,6 +42,8 @@ public final class FMWalker<T extends Comparable<T>>  {
     private static Node highestNode;
     private boolean heightChanged;
     private static int nodeCount = 0;
+
+    private int index = 0;
 
     /**
      * no arg constructor
@@ -52,25 +55,19 @@ public final class FMWalker<T extends Comparable<T>>  {
       * @return If no other instance of FMTWalker is found,
       * returns a new FMTWalker.
       */
-    public synchronized static FMWalker getInstance() {
+    public static FMWalker getInstance() {
         if(CLASS_INSTANCE == null) {
-            //System.out.println("in FMTWalker creating NEW instance");
-            initializeWalker();
             CLASS_INSTANCE = new FMWalker();
         }
         return CLASS_INSTANCE;
     }
 
-    private static void initializeWalker() {
-        root = dataStructure.get(0);
-    }
 
     /**
      * The current node to be used outside of the class
      * @return 
      */
-    public static Node getCurrentNode()
-    {
+    public Node getCurrentNode() {
         return currentNode;
     }
 
@@ -78,8 +75,12 @@ public final class FMWalker<T extends Comparable<T>>  {
      * Returns the number of nodes in this tree. 
      * @return 
      */
-    public static int getCount() {
+    public int getCount() {
         return nodeCount;
+    }
+
+    public int length() {
+        return FlashCardOps.getInstance().getFlashList().size();
     }
 
     /**
@@ -88,7 +89,7 @@ public final class FMWalker<T extends Comparable<T>>  {
      * Set value should be called, if needed, to get current
      * data. Caution is advised if performance is an issue.
      */
-    public static Node getLowestNode() { return lowestNode; }
+    public Node getLowestNode() { return lowestNode; }
 
     /**
      * Returns the highestChild in the tree.
@@ -96,27 +97,16 @@ public final class FMWalker<T extends Comparable<T>>  {
      * Set value should be called, if needed, to get current
      * data. Caution is advised if performance is an issue.
      */
-    public static Node getHighestNode() { return highestNode; }
+    public Node getHighestNode() { return highestNode; }
 
     // *** SETTERS ***
 
-    /**
-     * Setter for the current node to be used
-     * outside of the class.
-     * @param n
-     */
-    /*public static void setCurrentNode(Node n)
-    {
-        currentNode = n;
-    }
-
     public void setCurrentNode(FlashCardMM currentCard) {
-        T fc = (T) currentCard;
-        Node n = findNode(fc);
-        setCurrentNode(n);
+        currentNode.data = currentCard;
+        setCurrentNode(currentCard);
     }
 
-     */
+
 
     /**
      * add starter method. Swaps the last node with
@@ -126,14 +116,10 @@ public final class FMWalker<T extends Comparable<T>>  {
      * @return 
      */
     public boolean add(T item) {
-
-        dataStructure.add((Node) item);
+        FlashCardOps.getInstance().getFlashList().add((FlashCardMM) item);
         return true;
     }
     
-
-
-
 
     
     /**
@@ -143,56 +129,46 @@ public final class FMWalker<T extends Comparable<T>>  {
      * to some value.
      */
     public void clear() {
+        FlashCardOps.getInstance().getFlashList().clear();
 
-        if(this.root != null) {
-            this.root.parent = null;
-            this.root.right = null;
-            this.root.left = null;
-            this.root.data = null;
-            this.root = null;  // Trying to keep the reference
-            this.nodeCount = 0;
-        }
     }
     
     
     
-    /**
-     * Navigation provides the following methods to give the UI convenient and 
-     * flexible navigation
-     *  - getFirst()
-     *  - getNext()
-     *  - getLast()
-     *  - getPrevious()
-     * This class expects that the AVLTree is naturally ordered or it's order is 
-     * set by its own comparator. 
-     * @author humanfriendlyfolder
-     */
+    public void setDataStructure(ArrayList<FlashCardMM> flashCards) {
+       for(FlashCardMM f : flashCards) {
+           FlashCardOps.getInstance().getFlashList().add(f);
+       }
+    }
 
 
 
         /**
          * Sets currentNode to the first node
          */       
-        public void setToFirst()
-        {
-            currentNode = dataStructure.get(0);
+        public void setToFirst() {
+            System.out.println(CLASS_INSTANCE);
+            currentNode = new Node(FlashCardOps.getInstance().getFlashList().get(0));
+            System.out.println(currentNode.data.toString());
         }
 
         /**
          * Sets currentNode to the last noode
          */
         public void setToLast() {
-            currentNode = dataStructure.get(dataStructure.size());
+            ArrayList<FlashCardMM> fclist = FlashCardOps.getInstance().getFlashList();
+            currentNode = new Node(fclist.get(fclist.size() -1));
         }
+
 
 
         public void getNext() {
 
             Node local = currentNode;
-            
+
             try
             {
-
+                currentNode = new Node(FlashCardOps.getInstance().getFlashList().get(index++));
             }
             catch (NullPointerException e) {
 
@@ -206,7 +182,8 @@ public final class FMWalker<T extends Comparable<T>>  {
 
 
 
-     /** ****** INNER CLASS ******
+
+    /** ****** INNER CLASS ******
       * Inner class used to create a binary tree node
       * Contains Node left and right. Contains full
       * constructor and toString method.
@@ -215,10 +192,6 @@ public final class FMWalker<T extends Comparable<T>>  {
      public static class Node<E> {
 
          protected E data;
-         protected Node<E> parent;
-         public Node<E> left;
-         public Node<E> right;
-         protected int balance;
 
 
          /**
@@ -228,11 +201,8 @@ public final class FMWalker<T extends Comparable<T>>  {
           */
          public Node(E data) {
              this.data = data;
-             parent = null;
-             left = null;
-             right = null;
-             balance = 0;
-         }
+
+        }
 
          /**
           * Constructor. Sets data to data and parent referances
@@ -241,13 +211,11 @@ public final class FMWalker<T extends Comparable<T>>  {
           */
          public Node(E data, Node parent) {
              this.data = data;
-             this.parent = parent;
-             left = null;
-             right = null;
-             balance = 0;
          }
 
          public E getData() {
+             FlashCardMM mm = (FlashCardMM) this.data;
+             System.out.println("This.data called. " + mm.toString());
              return this.data;
          }
 
@@ -258,18 +226,9 @@ public final class FMWalker<T extends Comparable<T>>  {
          public String toString() {
 
              return this.data.toString();
-             //+ "\n       " + this.parent;
          }
 
-         /**
-          * getParent gets the next greater parent
-          * @return the TWnode from the next greater parent
-          */
-         public Node<E> getParent() {
-             return this.parent;
          }
-
-     }
      // ***** END INNER CLASS *****
 
 }
