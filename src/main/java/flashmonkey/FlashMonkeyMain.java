@@ -283,18 +283,18 @@ public class FlashMonkeyMain extends Application {
     private static GridPane getExitBox() {
         GridPane buttonBox = new GridPane(); // HBox with spacing provided
         buttonBox.setHgap(2);
-        Button exitButton = ButtoniKon.getExitButton();
-        exitButton.setOnAction(e -> {
-            try {
-                //Report.getInstance().endSessionTime();
-            } catch (NullPointerException f){
-                LOGGER.warn(f.getMessage(), f.getStackTrace());
-                f.printStackTrace();
-            } finally {
-                System.exit(0);
-            }
-            
-        });
+//        Button exitButton = ButtoniKon.getMenuButton();
+//        exitButton.setOnAction(e -> {
+//            try {
+//                //Report.getInstance().endSessionTime();
+//            } catch (NullPointerException f){
+//                LOGGER.warn(f.getMessage(), f.getStackTrace());
+//                f.printStackTrace();
+//            } finally {
+//                System.exit(0);
+//            }
+//
+//        });
         menuButton = ButtoniKon.getMenuButton();
         ColumnConstraints col0 = new ColumnConstraints();
         col0.setPercentWidth(50);
@@ -302,7 +302,6 @@ public class FlashMonkeyMain extends Application {
         buttonBox.getColumnConstraints().add(col0);
         buttonBox.setPadding(new Insets(15, 15, 15, 15));
         buttonBox.addColumn(1, menuButton);
-        buttonBox.addColumn(2, exitButton);
         
         return buttonBox;
     }

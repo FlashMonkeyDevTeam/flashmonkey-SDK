@@ -32,12 +32,10 @@ public final class FMWalker<T extends Comparable<T>>  {
 
     private static FMWalker CLASS_INSTANCE;
 
-
     // The current node being used.
     private static Node currentNode;
 
-    // the root of the tree, not the branch
-    //private static Node treeRoot;
+
     private static Node lowestNode;
     private static Node highestNode;
     private boolean heightChanged;
@@ -143,42 +141,41 @@ public final class FMWalker<T extends Comparable<T>>  {
 
 
 
-        /**
-         * Sets currentNode to the first node
-         */       
-        public void setToFirst() {
-            System.out.println(CLASS_INSTANCE);
-            currentNode = new Node(FlashCardOps.getInstance().getFlashList().get(0));
-            System.out.println(currentNode.data.toString());
+    /**
+     * Sets currentNode to the first node
+     */
+    public void setToFirst() {
+        System.out.println(CLASS_INSTANCE);
+        currentNode = new Node(FlashCardOps.getInstance().getFlashList().get(0));
+        System.out.println(currentNode.data.toString());
+    }
+
+    /**
+     * Sets currentNode to the last noode
+     */
+    public void setToLast() {
+        ArrayList<FlashCardMM> fclist = FlashCardOps.getInstance().getFlashList();
+        currentNode = new Node(fclist.get(fclist.size() -1));
+    }
+
+
+    public void getNext() {
+
+        Node local = currentNode;
+
+        try
+        {
+            currentNode = new Node(FlashCardOps.getInstance().getFlashList().get(index++));
         }
+        catch (NullPointerException e) {
 
-        /**
-         * Sets currentNode to the last noode
-         */
-        public void setToLast() {
-            ArrayList<FlashCardMM> fclist = FlashCardOps.getInstance().getFlashList();
-            currentNode = new Node(fclist.get(fclist.size() -1));
         }
-
-
-
-        public void getNext() {
-
-            Node local = currentNode;
-
-            try
-            {
-                currentNode = new Node(FlashCardOps.getInstance().getFlashList().get(index++));
-            }
-            catch (NullPointerException e) {
-
-            }
-            finally
-            {
-                currentNode = local;
-                //return local;
-            }
+        finally
+        {
+            currentNode = local;
+            //return local;
         }
+    }
 
 
 

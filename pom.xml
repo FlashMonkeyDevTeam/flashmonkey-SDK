@@ -5,35 +5,21 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>app.flashmonkey</groupId>
-    <artifactId>flashmonkey-deploy</artifactId>
-    <version>1.1.0-SNAPSHOT</version>
+    <artifactId>flashmonkey-sdk</artifactId>
+    <version>1.4.8</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>14</maven.compiler.source>
-        <maven.compiler.target>14</maven.compiler.target>
-        <javafx.version>14</javafx.version>
-        <mavenshade.version>3.2.0</mavenshade.version>
+        <javafx.version>20.0.1</javafx.version>
+        <junit.version>5.9.1</junit.version>
         <!-- JAXB -->
         <javax.activation.version>1.2.0</javax.activation.version>
         <jaxb.api.version>2.3.0</jaxb.api.version>
-        <lombok.version>1.18.12</lombok.version>
-        <stripe.version>20.2.0</stripe.version>
-        <aws.java.sdk.version>2.13.7</aws.java.sdk.version>
-    </properties>
 
-<!--    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>software.amazon.awssdk</groupId>
-                <artifactId>bom</artifactId>
-                <version>2.15.0</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
--->
+        <!-- display version timestamp -->
+        <timestamp>${maven.build.timestamp}</timestamp>
+        <maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
+    </properties>
 
     <dependencies>
         <!-- javafx -->
@@ -61,7 +47,19 @@
         <dependency>
             <groupId>org.controlsfx</groupId>
             <artifactId>controlsfx</artifactId>
-            <version>11.0.1</version>
+            <version>11.1.2</version>
+        </dependency>
+        <!-- RxJava ReactiveX -->
+        <dependency>
+            <groupId>io.reactivex.rxjava2</groupId>
+            <artifactId>rxjava</artifactId>
+            <version>2.2.20</version>
+        </dependency>
+        <!-- for converting snapshots to images -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-swing</artifactId>
+            <version>11-ea+24</version>
         </dependency>
         <!-- Apache multi-lingual numeric evaluation -->
         <dependency>
@@ -78,49 +76,42 @@
         <!-- icons -->
         <dependency>
             <groupId>org.kordamp.ikonli</groupId>
-            <artifactId>ikonli-entypo-pack</artifactId>
-            <version>11.3.5</version>
+            <artifactId>ikonli-fontawesome5-pack</artifactId>
+            <version>12.3.1</version>
         </dependency>
         <dependency>
             <groupId>org.kordamp.ikonli</groupId>
             <artifactId>ikonli-javafx</artifactId>
-            <version>11.3.5</version>
+            <version>12.3.1</version>
         </dependency>
 
         <!-- logging -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.3</version>
+            <version>1.2.9</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
-            <version>1.2.3</version>
-        </dependency>
-
-        <!-- postgresql logging reporting -->
-        <dependency>
-            <groupId>com.github.jasync-sql</groupId>
-            <artifactId>jasync-postgresql</artifactId>
-            <version>1.1.3</version>
+            <version>1.2.9</version>
         </dependency>
 
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.18</version>
+            <version>8.0.31</version>
         </dependency>
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>42.2.9</version>
+            <version>42.5.1</version>
         </dependency>
         <!-- JSON conversion -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.11.3</version>
+            <version>2.12.7.1</version>
         </dependency>
 
         <!-- JAXB -->
@@ -144,14 +135,9 @@
             <artifactId>jaxb-impl</artifactId>
             <version>${jaxb.api.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>${lombok.version}</version>
-            <scope>provided</scope>
-        </dependency>
 
         <!-- TESTING -->
+        <!-- as of Jun 18 2022 -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
@@ -176,28 +162,15 @@
             <version>4.0.15-alpha</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.junit.platform</groupId>
-            <artifactId>junit-platform-commons</artifactId>
-            <version>1.5.2</version>
-            <scope>compile</scope>
-        </dependency>
-        <!--<dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-all</artifactId>
-            <version>1.10.19</version>
-            <scope>test</scope>
-        </dependency>-->
-
     </dependencies>
 
     <build>
         <plugins>
             <!-- check vulnerabilities -->
-            <!--<plugin>
+            <plugin>
                 <groupId>org.owasp</groupId>
                 <artifactId>dependency-check-maven</artifactId>
-                <version>6.0.2</version>
+                <version>7.4.3</version>
                 <configuration>
                     <failBuildOnCVSS>8</failBuildOnCVSS>
                 </configuration>
@@ -208,28 +181,22 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin> -->
+            </plugin>
 
-            <!--<plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <release>12</release>
+                    <source>20</source>
+                    <target>20</target>
                 </configuration>
-            </plugin>-->
-            <!--<plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>animal-sniffer-maven-plugin</artifactId>
-                <version>1.20</version>
-                <configuration>
-                    <signature>
-                        <groupId>org.codehaus.mojo.signature</groupId>
-                        <artifactId>java15</artifactId>
-                        <version>1.0</version>
-                    </signature>
-                </configuration>
-            </plugin>-->
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.0</version>
+            </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>animal-sniffer-maven-plugin</artifactId>
@@ -247,7 +214,7 @@
             <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
-                <version>0.0.3</version>
+                <version>0.0.8</version>
                 <configuration>
                     <mainClass>flashmonkey.FlashMonkeyMain</mainClass>
                 </configuration>
@@ -273,7 +240,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>${mavenshade.version}</version>
+                <version>3.2.0</version>
                 <executions>
                     <!-- Attach the shade into the package phase -->
                     <execution>
@@ -283,13 +250,6 @@
                         </goals>
                         <configuration>
                             <!--<minimizeJar>true</minimizeJar>-->
-                            <filters>
-                                <filter>
-                                    <includes>
-                                        <include>video.resources.**</include>
-                                    </includes>
-                                </filter>
-                            </filters>
                             <shadedArtifactAttached>true</shadedArtifactAttached>
                             <shadedClassifierName>shaded</shadedClassifierName>
                             <transformers>

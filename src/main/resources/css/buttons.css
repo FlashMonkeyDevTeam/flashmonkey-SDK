@@ -1,39 +1,60 @@
+/*  See javaFX css:
+https://github.com/openjdk/jfx/blob/fdc88341f1df8fb9c99356ada54b25124b77ea6e/modules/javafx.controls/src/main/resources/com/sun/javafx/scene/control/skin/modena/modena.css#L824
+ */
+
 .root {
+
+    -fx-base: ececec;
+    -fx-control-inner-background: derive(-fx-base,80%);
     FM_RED_WRONG: #D20035;
     FM_RED_FAINT: #D2003522;
     FM_GREEN_RIGHT: #32CD32;
     FM_GREEN_FAINT: #32CD3222;
 
-    FM_SETTINGS_COLOR: #256C9B;
+    /* new color for ACHIEVE Grey-Blue*/
+    FM_SETTINGS_COLOR: #DEDEDE; /* #304D73; */ /*  #0C3366; */
     FM_SETTINGS_FAINT: #256C9B22;
     FM_SETTINGS_BCKGND: #37A1E8;
+    FOCUS_BLUE: #0096C9;
+    EVE_BLUE: #0064e1;
+    ICON_BLUE: #3498db;/*#304F8C; */
+    /* New color for achieve */
+    BTN_BOX_BLUE: #0B2D59;/*rgba(51,130,163,1.0);*/
     /* The text label color */
     FM_TEXT_LABEL: #FFFFFF; /* #F8B500 yellow */
+    FM_WHITE: #F8FBFF;
     FM_GREY: #393E46;
-
-    FLASH_PURPLE: #9276AC;
-    BUTTON_PURPLE: #48206E; /* 48206E 3F0B70*/
-    BUTTON_COMPLIMENT: #8248B9;//
+ /*   FLASH_PURPLE: #9276AC;
+    BUTTON_PURPLE: #48206E; !* 48206E 3F0B70*!
+    BUTTON_COMPLIMENT: #8248B9;*/
     FLASH_RED: #FC3C3C;
     ROSE_RED: #E32E68;
-    FLASH_WHITE: #FFF4E0;
-    BUTTON_PURPLE_50: rgba(72, 32, 110, .5);
-    FOCUS_BLUE: #0096C9;
+    FLASH_WHITE: #F8FBFF; /*FFF4E0 */
+    HOVER: #BAEEFF;
+    BUTTON_WHITE: #FFFFFF;
+    /*BUTTON_PURPLE_50: #48206E; !*rgba(72, 32, 110, .5);*!*/
+    /*ICON_PURPLE: #79489C;*/
+    ICON_YELLOW: #F2E529;
+    ICON_GOLD: #F2C230;
 
 }
 
 .button {
     /*-fx-background-color: FLASH_WHITE;*/
     -fx-text-fill: #393E46;
-    -fx-font-family: "Raleway-Medium.ttf";
+    -fx-font-family: Arial;
     -fx-cursor: hand;
 }
 
 #buttonBox {
-    -fx-background-color: BUTTON_PURPLE; /* FM Red #FC3C3C */
+    -fx-background-color: BTN_BOX_BLUE;
     /*-fx-background-color: FLASH_RED; *//* FM Red #FC3C3C */
 }
-
+#toolBox {
+    -fx-background-color: #00000048;
+    -fx-border-radius: 3 3 3 3;
+    -fx-background-radius: 3 3 3 3;
+}
 #editorButtonBox {
     -fx-background-color: FM_SETTINGS_COLOR;
 }
@@ -46,25 +67,25 @@
 
 
 #hypLink {
-    -fx-font-family: "Raleway";
+    -fx-font-family: Arial;
     -fx-wrap-text: true;
-    -fx-font-size: 12;
+    -fx-font-size: 12px;
 }
 
 /* sign-in sign-up hyperlinks */
 #signInHyp {
-    -fx-font-size: 16px;
-    -fx-font-weight: 900;
-    -fx-text-fill: BUTTON_PURPLE;
+    -fx-font-size: 14px;
+    -fx-font-weight: 800;
+    -fx-text-fill: FM_WHITE;
     -fx-cursor: hand;
 }
 #signInHyp:hover {
-    -fx-base: BUTTON_PURPLE;
-    -fx-text-fill: #3A0070;
+    /*-fx-font-weight: 800;*/
+    -fx-text-fill: HOVER;
+    -fx-underline: false;
 }
 #signInHyp:pressed {
-    -fx-base: BUTTON_PURPLE;
-    -fx-text-fill: derive(-fx-base,40%);
+    /* remove funky border */
     -fx-border-color: transparent;
 }
 
@@ -76,18 +97,11 @@
 
 
 #clearButton {
-    /* -fx-background-color: #0C73C5; */
     -fx-border-radius: 0 3 3 0;
     -fx-background-radius: 0 3 3 0;
     -fx-border-width: 1;
     -fx-border-color: #0E89EC; /* Focus blue is .. 0096C9 */
 }
-#clrBtn:hover {
-    -fx-background-color: rgba(247,247,247,0.85);
-}
-
-
-
 #drawToolButton {
     -fx-background-color: #0C73C5;
     -fx-border-radius: 0 3 3 0;
@@ -100,16 +114,28 @@
 #newDeckButton {
     -fx-margin-bottom: 10;
 }
-
-
-
+#navButtonAns {
+    -fx-border-color: #F7F7F790;
+    -fx-border-width: 2;
+    -fx-border-radius: 4;
+    -fx-base: #FFFFFF; /* BUTTON_WHITE; */
+    -fx-font-weight: 900;
+    -fx-background-radius: 4;
+    -fx-text-fill: FOCUS_BLUE;
+    -fx-background-color: derive(-fx-base,80%);
+}
+#navButtonAns:hover {
+    -fx-base: FM_SETTINGS_BCKGND;
+    -fx-font-weight: 900;
+    -fx-background-color: derive(-fx-base,10%);
+    -fx-border-color: TRANSPARENT;
+}
 #navButtonLight {
     -fx-base: BUTTON_WHITE;
     -fx-font-weight: 900;
-    -fx-background-radius: 0, 0, 0, 0;
-    -fx-text-fill: BUTTON_PURPLE;
+    -fx-background-radius: 4;
+    -fx-text-fill: FOCUS_BLUE;
     -fx-background-color: derive(-fx-base,80%);
-    /*-fx-background-color: derive(-fx-base,20%);*/
 }
 #navButtonLight:hover {
     -fx-base: FM_SETTINGS_BCKGND;
@@ -122,9 +148,9 @@
 #navButtonBlue {
     -fx-base: BUTTON_WHITE;
     -fx-font-weight: 900;
-    -fx-text-fill: IKON_BLUE;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-text-fill: ICON_BLUE;
     -fx-background-color: BUTTON_WHITE;
-    /*-fx-background-color: derive(-fx-base,20%);*/
 }
 #navButtonBlue:hover {
     -fx-base: FM_SETTINGS_BCKGND;
@@ -148,7 +174,7 @@
 
 
 #purpleButton {
-    -fx-base: BUTTON_PURPLE;
+    -fx-base: FOCUS_BLUE;
     -fx-font-weight: 900;
     -fx-background-color: derive(-fx-base,50%);
     -fx-text-fill: FLASH_WHITE;
@@ -157,63 +183,69 @@
     -fx-base: BUTTON_COMPLIMENT;
     -fx-background-color: derive(-fx-base,40%);
 }
-
-
-
-#purpleButtonSquare {
-    -fx-base: BUTTON_PURPLE;
+#blueButtonSquare {
     -fx-font-weight: 900;
-    -fx-background-radius: 0, 0, 0, 0;
-    -fx-background-color: derive(-fx-base,80%);
+    -fx-background-radius: 3;
+    -fx-background-color: ICON_BLUE;
     -fx-text-fill: FLASH_WHITE;
 }
-#purpleButtonSquare:hover {
-    -fx-base: BUTTON_PURPLE;
-    -fx-background-color: derive(-fx-base,40%);
+#blueButtonSquare:hover {
+    -fx-base: ICON_BLUE;
+    -fx-background-color: derive(-fx-base,20%);
 }
 
-
-/*
-#roseButtonSquare {
-    -fx-font-weight: 900;
-    -fx-background-radius: 0, 0, 0, 0;
-    -fx-background-color: ROSE_RED;
-    -fx-text-fill: FLASH_WHITE;
+#toolBoxContainer {
+    -fx-base: FM_SETTINGS_BCKGND;
+    -fx-border-width: 0 2 0 2;
+    -fx-border-color: derive(-fx-base,-10%);
 }
-#roseButtonSquare:hover {
-    -fx-base: ROSE_RED;
-    -fx-font-weight: 900;
-    -fx-background-color: derive(-fx-base,40%);
+#blueButtonRndBdr {
+    -fx-base: FM_SETTINGS_BCKGND;
+    -fx-border-width: 1;
+    -fx-border-color: derive(-fx-base,-10%);
 }
- */
-
-#sellButton {
-    -fx-border-radius: 3 3 3 3;
-    -fx-border-width: 3;
+#blueButtonRndBdr,
+#blueButtonRnd {
+    /*-fx-base: FM_SETTINGS_BCKGND;*/
+    -fx-border-radius: 2 2 2 2;
     -fx-font-weight: 900;
     -fx-text-fill: FLASH_WHITE;
-    -fx-border-color: FM_SETTINGS_COLOR;
-    -fx-background-color: #2980b9;
+    /*-fx-border-color: derive(-fx-base,-10%);*/
+    -fx-background-color: TRANSPARENT;/*derive(-fx-base,-10%);*/ /*#2980b9;*/
 }
-
-#sellButton:hover {
+#blueButtonRndBdr:hover,
+#blueButtonRnd:hover {
     -fx-base: FM_SETTINGS_BCKGND;
     -fx-font-weight: 900;
-    -fx-background-color: derive(-fx-base,10%);
+    -fx-background-color: derive(-fx-base, -1%);
 }
 
-
-
+/* rich text editor buttons */
+#editorBtn {
+    -fx-background-color: TRANSPARENT;
+    -fx-border-width: 0;
+}
+#editorBtn:hover {
+    -fx-base: FM_GREY;
+    -fx-background-color: E8E8E8;
+}
 #signInButton {
-    -fx-base: BUTTON_PURPLE;
+    -fx-base: ICON_BLUE;
     -fx-font-weight: 900;
-    -fx-background-color: derive(-fx-base,50%);
+    -fx-background-color: derive(-fx-base,4%);
     -fx-text-fill: FLASH_WHITE;
 }
 #signInButton:hover {
-    -fx-base: BUTTON_PURPLE;
+    -fx-base: ICON_BLUE;
     -fx-font-weight: 900;
-    -fx-background-color: derive(-fx-base,40%);
+    -fx-background-color: derive(-fx-base,16%);
+}
+#signInButton:disabled {
+    -fx-base: ICON_BLUE;
+    -fx-font-weight: 900;
+    -fx-border-color: derive(-fx-base,16%);
+    -fx-border-right: 3;
+    /*-fx-background-color: #00000000;*/
 }
 
 
@@ -234,37 +266,40 @@
     -fx-padding: 6 8 6 8;
     -fx-border-color: dimgrey;
 }
-
-
-
-/* deleteMMBtn & deleteTCellBtn */
+/* deleteMMBtn & deleteTCellBtn , addTextCell, addKeyWords*/
 #clrBtn {
-    /*-fx-background: -fx-base; /* window background */
-    /*-fx-background-color: transparent;*/
-
     -fx-background-color: rgba(236,236,236,0.75);
-    -fx-background-radius: 15, 15, 15, 15;
-    -fx-background-insets: 0, 0;
-    -fx-border-radius: 15 15 15 15;
+    -fx-background-radius: 4;
+    -fx-background-insets: 0;
+    -fx-border-radius: 4;
     /*-fx-padding: 8 8 8 8;*/
     -fx-border-width: 1;
-    /*-fx-border-color: ladder(-fx-base, derive(-fx-base, -25%), derive(-fx-base, -15%), derive(-fx-base, 7%));*/
-    -fx-border-color: -fx-inner-border, -fx-outer-border;
 }
-
-
-
-
-
-
-
-
-
-
-/*  NO css without "hover"
-#readFlashButton:hover {
-    -fx-base: BUTTON_COMPLIMENT;
-    -fx-font-weight: 900;
-    -fx-background-color: derive(-fx-base,40%);
+#clrBtn:hover {
+    -fx-background-color: rgba(247,247,247,0.85);
 }
- */
+#clearButtonSquare {
+    -fx-background-color: rgba(236,236,236,0.0);
+    -fx-background-insets: 0, 0;
+}
+#clearButtonSquare:hover {
+    -fx-background-color: #0064e180;
+    -fx-background-radius: 4, 4, 4, 4;
+}
+#slider .track {
+    -fx-background-color: #FFFFFF36;
+}
+#slider .track:hover {
+    -fx-background-color: FM_WHITE;
+}
+#slider:hover {
+    -fx-background-color: #0064e180;
+    -fx-background-radius: 4, 4, 4, 4;
+    -fx-padding: 2 2;
+}
+#slider .thumb {
+    -fx-background-color: #0064e180;
+}
+#slider .thumb:hover {
+    -fx-background-color: FM_WHITE;
+}

@@ -13,11 +13,218 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1863d91f-0da9-467b-b2bd-446c55156f07" name="Default Changelist" comment="Fixed bug in deck save. QnA study mode is working">
+    <list default="true" id="1863d91f-0da9-467b-b2bd-446c55156f07" name="Default Changelist" comment="Fixed bug in deck save. Test study mode is working">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jasync_sql_jasync_common_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jasync_sql_jasync_postgresql_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_microutils_kotlin_logging_1_7_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_49_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_49_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_49_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_49_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_49_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_49_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_controlsfx_controlsfx_11_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_3_61.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_50.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_61.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_61.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlinx_kotlinx_coroutines_jdk8_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_joda_joda_convert_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_core_11_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_entypo_pack_11_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_javafx_11_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_11_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_win_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_swing_11_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_swing_win_11_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_win_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flashmonkey-deploy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flashmonkey-deploy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flashmonkey/FlashCardOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flashmonkey/FlashCardOps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flashmonkey/FlashMonkeyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flashmonkey/FlashMonkeyMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/flashmonkey/ReadFlash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flashmonkey/ReadFlash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fmtree/FMWalker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fmtree/FMWalker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/type/celleditors/SectionEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/type/celleditors/SectionEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/type/testtypes/GraphCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/type/testtypes/GraphCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/type/testtypes/MathCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/type/testtypes/MathCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/type/tools/imagery/Fit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/type/tools/imagery/Fit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uicontrols/ButtoniKon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uicontrols/ButtoniKon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uicontrols/ButtoniKonClazz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uicontrols/ButtoniKonClazz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uicontrols/UIColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uicontrols/UIColors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uicontrols/icons/FlashMonkeyIkon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uicontrols/icons/IkonHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/css/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/buttons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/FMFields$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/FMFields$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/FMFields$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/FMFields$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/FMFields$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/FMFields$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/FMFields$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/FMFields$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/FMFields.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/FMFields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/css/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/css/buttons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datastructures/TypeInterfaceTesterNode$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datastructures/TypeInterfaceTesterNode$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datastructures/TypeInterfaceTesterNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datastructures/TypeInterfaceTesterNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fileops/FileOpsShapes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fileops/FileOpsShapes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/Answer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/AppLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/AppLauncher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/CreateFlash$CardSaver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/CreateFlash$CardSaver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/CreateFlash$TestMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/CreateFlash$TestMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/CreateFlash.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/CreateFlash.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/FMPopUpMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/FMPopUpMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/FMToolTip.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/FMToolTip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/FMTransition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/FMTransition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/FlashCardMM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/FlashCardMM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/FlashCardOps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/FlashCardOps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/FlashMonkeyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/FlashMonkeyMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/Question.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/ReadFlash.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/ReadFlash.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flashmonkey-deploy-1.1.0-SNAPSHOT-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/flashmonkey-deploy-1.1.0-SNAPSHOT-shaded.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flashmonkey-deploy-1.1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/flashmonkey-deploy-1.1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fmtree/FMWalker$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fmtree/FMWalker$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fmtree/FMWalker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fmtree/FMWalker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/multimedia/AnswerMM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/multimedia/AnswerMM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/multimedia/QuestionMM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/multimedia/QuestionMM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/queue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/queue/ArrayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/queue/QueueIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/queue/QueueIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/AnimaterInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/AnimaterInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/CopyPasteInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/CopyPasteInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/FMMouseInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/FMMouseInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/cardtypes/DoubleHorzCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/cardtypes/DoubleHorzCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/cardtypes/DoubleVertCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/cardtypes/DoubleVertCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/cardtypes/GenericCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/cardtypes/GenericCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/cardtypes/SingleCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/cardtypes/SingleCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/celleditors/DrawTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/celleditors/DrawTools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/celleditors/SectionEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/celleditors/SectionEditor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/celleditors/ShapesEditorPopup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/celleditors/ShapesEditorPopup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/celltypes/CanvasCell$InnerShapesClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/celltypes/CanvasCell$InnerShapesClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/celltypes/CanvasCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/celltypes/CanvasCell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/celltypes/GenericCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/celltypes/GenericCell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/celltypes/MediaPopUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/celltypes/MediaPopUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/celltypes/TextCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/celltypes/TextCell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/ColorsEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/ColorsEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/DrawObj.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/DrawObj.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/FMText.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/FMText.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/FMTextEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/FMTextEditor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/FontAttributes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/FontAttributes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/ArrowBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/ArrowBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/CircleBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/CircleBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMArrow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMArrow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMCircle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMCircle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMDrawText.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMDrawText.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMFreeform.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMFreeform.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMLetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMLetter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMPolyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMPolyLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMPolygon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMPolygon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMRectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMRectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/FMTriangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/FreeformBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/FreeformBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/GenericBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/GenericBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/GenericShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/GenericShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/LetterBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/LetterBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/PolygonBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/PolygonBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/PolylineBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/PolylineBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/RectangleBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/RectangleBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/TriangleBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/TriangleBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/Utility$Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/Utility$Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/draw/shapes/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/draw/shapes/Utility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/sectiontype/DoubleCellSection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/sectiontype/DoubleCellSection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/sectiontype/GenericSection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/sectiontype/GenericSection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/sectiontype/SingleCellSection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/sectiontype/SingleCellSection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/AIMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/AIMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/FMHashCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/FMHashCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/FillnTheBlank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/FillnTheBlank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/GenericTestType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/GenericTestType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/GraphCard$LargeGraphPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/GraphCard$LargeGraphPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/GraphCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/GraphCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/MathCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/MathCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/MultiChoice$Test$HashObj.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/MultiChoice$Test$HashObj.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/MultiChoice$Test$TestForRepeats.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/MultiChoice$Test$TestForRepeats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/MultiChoice$Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/MultiChoice$Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/MultiChoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/MultiChoice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/NoteTaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/NoteTaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/QandA$QandASession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/QandA$QandASession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/QandA$QandATest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/QandA$QandATest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/QandA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/QandA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/TestList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/TestList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/TurnInAudio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/TurnInAudio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Close_Enclosure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/DijkstraParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/DijkstraParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/ExpNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/ExpNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Open_Enclosure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/OperatorInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/OperatorInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/imagery/Fit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/imagery/Fit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/ButtoniKon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/ButtoniKon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/ButtoniKonClazz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/ButtoniKonClazz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/FMAlerts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/FMAlerts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/FxNotify.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/FxNotify.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/SceneCntl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/SceneCntl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/UIColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/UIColors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/api/FMNotifications$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/api/FMNotifications$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/api/FMNotifications$NotificationPopupHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/api/FMNotifications$NotificationPopupHandler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/api/FMNotifications$NotificationPopupHandler$CustomTransition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/api/FMNotifications$NotificationPopupHandler$CustomTransition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/api/FMNotifications$NotificationPopupHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/api/FMNotifications$NotificationPopupHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/api/FMNotifications.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uicontrols/api/FMNotifications.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/icons/FlashMonkeyIkon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uicontrols/icons/IkonHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/flashmonkey-deploy-1.1.0-SNAPSHOT-shaded.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/flashmonkey-deploy-1.1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,27 +274,28 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1fs8uCCIz4ZkMmtyxM3cI2YjrzT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../flashmonkey-betaB/src/main/java/flashmonkey/CreateFlash.java" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.35363635" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../flashmonkey-betaB/src/main/java/flashmonkey/CreateFlash.java" />
-    <property name="two.files.diff.last.used.folder" value="$USER_HOME$/Desktop/flashmonkey-betaB-2020-07-30/flashmonkey-deploy/src/main/java" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Me/IdeaProjects/flashmonkey-betaB/src/main/resources/css/buttons.css&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/Me/IdeaProjects/flashmonkey-betaB/src/main/resources/css/buttons.css&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Users/Me/IdeaProjects/flashmonkey-betaB/src/main/resources/image&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Me\IdeaProjects\flashmonkey-developer-interface\readme_resources" />
@@ -116,7 +324,7 @@
       <recent name="search" />
     </key>
   </component>
-  <component name="RunManager" selected="JAR Application.flashmonkey-deploy-1.1.0-SNAPSHOT-shaded.jar">
+  <component name="RunManager" selected="JAR Application.flashmonkey-sdk-1.4.8-shaded.jar">
     <configuration name="Auth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="authcrypt.Auth" />
       <module name="flashmonkey-deploy" />
@@ -143,21 +351,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="flashmonkey-deploy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="forms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="forms" />
-      <option name="MAIN_CLASS_NAME" value="forms.StudentFormTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StudentFormTest.testStudentInsertDataBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="flashmonkey-deploy" />
       <extension name="coverage">
@@ -178,13 +371,17 @@
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/flashmonkey-deploy-1.1.0-SNAPSHOT-shaded.jar" />
       <method v="2" />
     </configuration>
+    <configuration name="flashmonkey-sdk-1.4.8-shaded.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/flashmonkey-sdk-1.4.8-shaded.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.flashmonkey-sdk-1.4.8-shaded.jar" />
         <item itemvalue="JAR Application.flashmonkey-deploy-1.1.0-SNAPSHOT-shaded.jar" />
         <item itemvalue="Application.FlashMonkeyMain" />
         <item itemvalue="Application.Auth" />
         <item itemvalue="JUnit.StudentFormTest.testStudentInsertDataBase" />
-        <item itemvalue="JUnit.StudentFormTest" />
       </list>
     </recent_temporary>
   </component>
@@ -590,7 +787,12 @@
       <workItem from="1628738083498" duration="8956000" />
       <workItem from="1628800218403" duration="1508000" />
       <workItem from="1628801751501" duration="1748000" />
-      <workItem from="1628817241418" duration="16105000" />
+      <workItem from="1628817241418" duration="17273000" />
+      <workItem from="1631155247202" duration="59000" />
+      <workItem from="1651609847521" duration="915000" />
+      <workItem from="1684698585590" duration="13787000" />
+      <workItem from="1684717828261" duration="17926000" />
+      <workItem from="1684779198697" duration="1199000" />
     </task>
     <task id="LOCAL-00001" summary="Creating deck search, &amp; several bug fixes">
       <created>1597019756650</created>
@@ -851,7 +1053,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628879921611</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Fixed bug in deck save. Test study mode is working">
+      <created>1628880126425</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1628880126425</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Fixed bug in deck save. Test study mode is working">
+      <created>1628880419646</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1628880419646</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -867,7 +1083,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -875,7 +1090,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Working on completing and debugging Security, and link ambiguity" />
     <MESSAGE value="With exception to bugs, link ambiguation is complete for S3 media and deck operations." />
     <MESSAGE value="Corrected bugs for deck metadata and user account forms" />
     <MESSAGE value="implementing DeckMarketPane. Select deck, and data from teaserPane" />
@@ -900,7 +1114,8 @@
     <MESSAGE value="minor corrections to readme" />
     <MESSAGE value="Added FillinTheBlank to test Package" />
     <MESSAGE value="Fixed bug in deck save. QnA study mode is working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug in deck save. QnA study mode is working" />
+    <MESSAGE value="Fixed bug in deck save. Test study mode is working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug in deck save. Test study mode is working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -971,51 +1186,20 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/fmtree/FMWalker.java</url>
-          <line>103</line>
-          <properties class="fmtree.FMWalker" method="setCurrentNode">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="220" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/fmtree/FMWalker.java</url>
-          <line>130</line>
+          <line>128</line>
           <properties class="fmtree.FMWalker" method="clear">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="226" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/fmtree/FMWalker.java</url>
-          <line>148</line>
-          <properties class="fmtree.FMWalker" method="setToFirst">
+          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/ReadFlash.java</url>
+          <line>666</line>
+          <properties class="flashmonkey.ReadFlash">
             <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="228" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/FlashCardOps.java</url>
-          <line>113</line>
-          <properties class="flashmonkey.FlashCardOps" method="setFlashList">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="233" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java</url>
-          <line>1267</line>
-          <properties class="flashmonkey.CreateFlash" method="saveDeckActionHelper">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="235" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java</url>
-          <line>1219</line>
-          <properties class="flashmonkey.CreateFlash" method="saveDeckAction">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="236" />
+          <option name="timeStamp" value="240" />
         </line-breakpoint>
         <breakpoint type="java-exception">
           <properties class="java.lang.AssertionError" package="java.lang" />
@@ -1048,7 +1232,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/FlashMonkeyMain.java</url>
-          <line>400</line>
+          <line>399</line>
           <option name="timeStamp" value="169" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1058,23 +1242,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/type/draw/shapes/PolylineBuilder.java</url>
-          <line>487</line>
+          <line>489</line>
           <option name="timeStamp" value="181" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/type/draw/shapes/PolylineBuilder.java</url>
-          <line>488</line>
-          <option name="timeStamp" value="182" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/type/draw/shapes/PolylineBuilder.java</url>
-          <line>490</line>
+          <line>496</line>
           <option name="timeStamp" value="184" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/type/draw/shapes/PolylineBuilder.java</url>
-          <line>489</line>
-          <option name="timeStamp" value="185" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/authcrypt/Verify.java</url>
@@ -1137,38 +1311,13 @@
           <option name="timeStamp" value="198" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/type/celleditors/SectionEditor.java</url>
-          <line>1626</line>
-          <option name="timeStamp" value="199" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/type/celleditors/SectionEditor.java</url>
-          <line>1627</line>
-          <option name="timeStamp" value="200" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/type/celleditors/SectionEditor.java</url>
-          <line>1628</line>
-          <option name="timeStamp" value="201" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/type/celleditors/SectionEditor.java</url>
-          <line>1629</line>
-          <option name="timeStamp" value="202" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/type/celleditors/SectionEditor.java</url>
-          <line>1872</line>
-          <option name="timeStamp" value="203" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/FlashCardOps.java</url>
           <line>74</line>
           <option name="timeStamp" value="205" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/ReadFlash.java</url>
-          <line>655</line>
+          <line>654</line>
           <option name="timeStamp" value="206" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1177,39 +1326,24 @@
           <option name="timeStamp" value="207" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/fmtree/FMWalker.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="221" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/ReadFlash.java</url>
-          <line>653</line>
+          <line>652</line>
           <option name="timeStamp" value="224" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/fmtree/FMWalker.java</url>
-          <line>150</line>
-          <option name="timeStamp" value="227" />
+          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/ReadFlash.java</url>
+          <line>668</line>
+          <option name="timeStamp" value="241" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/fmtree/FMWalker.java</url>
-          <line>149</line>
-          <option name="timeStamp" value="230" />
+          <url>file://$PROJECT_DIR$/src/main/java/type/testtypes/TestList.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="242" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/fmtree/FMWalker.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="232" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/FlashCardOps.java</url>
-          <line>122</line>
-          <option name="timeStamp" value="234" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/FlashCardOps.java</url>
-          <line>121</line>
-          <option name="timeStamp" value="237" />
+          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/ReadFlash.java</url>
+          <line>620</line>
+          <option name="timeStamp" value="243" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -51,7 +51,6 @@ type\draw\shapes\GenericShape.class
 flashmonkey\Question.class
 type\draw\shapes\FMArrow.class
 type\testtypes\NoteTaker.class
-uicontrols\icons\IkonHandler.class
 flashmonkey\FMPopUpMessage.class
 type\testtypes\MultiChoice.class
 type\tools\calculator\Operator$5.class
@@ -127,7 +126,6 @@ flashmonkey\CreateFlash$CardSaver.class
 uicontrols\SceneCntl.class
 type\draw\shapes\GenericBuilder.class
 fmtree\FMWalker$Node.class
-uicontrols\icons\FlashMonkeyIkon.class
 type\draw\DrawObj.class
 flashmonkey\AppLauncher.class
 type\tools\calculator\Operator$15.class

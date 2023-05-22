@@ -409,7 +409,6 @@ public class GraphCard extends MathCard {
         });
 
         graphP.setOnMouseMoved(e -> {
-            System.out.println("mouse is moving");
             fmQTip.update(e, path);
         });
 
@@ -699,7 +698,7 @@ public class GraphCard extends MathCard {
      * Create the table of x and y =
      * @param expression
      */
-    @Override
+    //@Override
     public void calcButtonAction(String expression, SectionEditor p) {
 
         reset();

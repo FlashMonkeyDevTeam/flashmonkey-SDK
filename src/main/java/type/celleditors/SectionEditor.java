@@ -23,7 +23,7 @@ package type.celleditors;
 import fileops.FileOpsShapes;
 import flashmonkey.*;
 import javafx.scene.layout.*;
-import org.kordamp.ikonli.entypo.Entypo;
+import org.kordamp.ikonli.fontawesome5.*;
 import type.celltypes.TextCell;
 import javafx.event.ActionEvent;
 import javafx.geometry.Bounds;
@@ -129,13 +129,18 @@ public class SectionEditor
     private Button cameraBtn;
     private Button findBtn;
     
-    final ButtoniKonClazz FIND       = new ButtoniKonClazz("FIND", "Search for images, videos, animations, and tools",Entypo.MAGNIFYING_GLASS,UIColors.FM_WHITE);
-    final ButtoniKonClazz CAMERA     = new ButtoniKonClazz( "", "Take a snapshot from your camera", Entypo.VIDEO_CAMERA, UIColors.FOCUS_BLUE_OPAQUE);
-    final ButtoniKonClazz SNAPSHOT   = new ButtoniKonClazz("", "Take a snapshot from your screen", "icon/24/snapshot_blue4.png", UIColors.FOCUS_BLUE_OPAQUE);
-    final ButtoniKonClazz DRAWPAD    = new ButtoniKonClazz("", "Draw shapes only", Entypo.NEW_MESSAGE, UIColors.FOCUS_BLUE_OPAQUE);
-    final ButtoniKonClazz CLEAR_TEXT = new ButtoniKonClazz("", "Clear text", Entypo.ERASE, UIColors.FOCUS_BLUE_OPAQUE);
-    final ButtoniKonClazz CLEAR_T_AREA = new ButtoniKonClazz("", "Remove text area", Entypo.CIRCLE_WITH_CROSS, UIColors.FOCUS_BLUE_OPAQUE);
-    final ButtoniKonClazz CLEAR_RIGHT  = new ButtoniKonClazz("", "Remove right area", Entypo.NOTIFICATIONS_OFF, UIColors.FOCUS_BLUE_OPAQUE);
+      private final ButtoniKonClazz FIND = new ButtoniKonClazz("FIND", "Search for images, videos, animations, and tools", FontAwesomeSolid.SEARCH, UIColors.FM_WHITE, ButtoniKonClazz.SIZE_24);
+      private final ButtoniKonClazz CAMERA = new ButtoniKonClazz("", "Take a snapshot from your camera", FontAwesomeSolid.CAMERA, UIColors.EDITOR_BTNS, ButtoniKonClazz.SIZE_24);
+      private final ButtoniKonClazz SNAPSHOT = new ButtoniKonClazz("", "Take a snapshot from your screen", "icon/24/snapshot_blue4.png", UIColors.EDITOR_BTNS, 0);
+      private final ButtoniKonClazz DRAWPAD = new ButtoniKonClazz("", "Draw shapes only", FontAwesomeSolid.DRAW_POLYGON, UIColors.EDITOR_BTNS, ButtoniKonClazz.SIZE_24);
+      private final ButtoniKonClazz CLEAR_TEXT = new ButtoniKonClazz("", "Clear text", FontAwesomeSolid.BACKSPACE, UIColors.EDITOR_BTNS, ButtoniKonClazz.SIZE_24);
+      private final ButtoniKonClazz CLEAR_T_AREA = new ButtoniKonClazz("", "Remove text area", FontAwesomeSolid.MINUS_CIRCLE, UIColors.FOCUS_BLUE_OPAQUE, ButtoniKonClazz.SIZE_24);
+      private final ButtoniKonClazz CLEAR_RIGHT = new ButtoniKonClazz("", "Remove right area", FontAwesomeSolid.MINUS_CIRCLE, UIColors.FOCUS_BLUE_OPAQUE,ButtoniKonClazz.SIZE_24);
+      // upper section area.
+      private final ButtoniKonClazz ADD_TEXT_CELL = new ButtoniKonClazz("", "Add a text cell", FontAwesomeSolid.FONT, UIColors.EDITOR_BTNS, ButtoniKonClazz.SIZE_16);
+      private final ButtoniKonClazz HASHTAG = new ButtoniKonClazz("", "Add searchable keywords about this media", FontAwesomeSolid.HASHTAG, UIColors.EDITOR_BTNS, ButtoniKonClazz.SIZE_16);
+      private final ButtoniKonClazz DELETE_T_CELL = new ButtoniKonClazz("", "Remove text cell", FontAwesomeSolid.TIMES_CIRCLE, UIColors.EDITOR_BTNS,ButtoniKonClazz.SIZE_16);
+      private final ButtoniKonClazz DELETE_MM_CELL = new ButtoniKonClazz("", "Remove multi-media cell", FontAwesomeSolid.TIMES_CIRCLE, UIColors.EDITOR_BTNS,ButtoniKonClazz.SIZE_16);
     
     
     //    private String dAndDImgPath;

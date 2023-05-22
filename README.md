@@ -116,4 +116,4 @@ COVERED CODE IS PROVIDED UNDER THIS LICENSE ON AN "AS IS" BASIS, WITHOUT WARRANT
 **The FlashMonkey Application Software is Patent Pending**
 This patent does not include nor rely on any software covered by GNU GPL nor any other OpenSource licenses. 
 
-**Copyright (c) 2019 - 2021 FlashMonkey Inc. (https://www.flashmonkey.xyz) & Lowell Stadelman**
+**Copyright (c) 2019 - 2023 FlashMonkey Inc. (https://www.flashmonkey.xyz) & Lowell Stadelman**

@@ -201,7 +201,7 @@ public final class ReadFlash {
 
         preRead();
     
-        exitButton = ButtoniKon.getExitButton();
+        //exitButton = ButtoniKon.getMenuButton();;
         menuButton = ButtoniKon.getMenuButton();
         exitBox = new GridPane(); // HBox with spacing provided
         exitBox.setHgap(2);
@@ -212,7 +212,6 @@ public final class ReadFlash {
         exitBox.setVgap(2);
         exitBox.setPadding(new Insets(15, 15, 15, 15));
         exitBox.addColumn(1, menuButton);
-        exitBox.addColumn(2, exitButton);
         exitBox.setId("buttonBox");
         
         deckNameLabel = new Label(getDeckName());
@@ -231,7 +230,7 @@ public final class ReadFlash {
         
         // *** BUTTON ACTIONS ***
         menuButton.setOnAction(e -> FlashMonkeyMain.setWindowToNav());
-        exitButton.setOnAction(e -> exitAction() );
+        //exitButton.setOnAction(e -> exitAction() );
         qaButton.setOnAction((ActionEvent e) -> qaButtonAction());
         testButton.setOnAction((ActionEvent e) -> testButtonAction());
         /*
@@ -665,10 +664,10 @@ public final class ReadFlash {
     }
 
 
-    public void exitAction() {
-        //leaveAction();
-        System.exit(0);
-    }
+//    public void exitAction() {
+//        //leaveAction();
+//        System.exit(0);
+//    }
 
     // *** SETTERS *** //
 

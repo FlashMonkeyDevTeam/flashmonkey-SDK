@@ -17,6 +17,7 @@ import type.tools.calculator.*;
 import type.cardtypes.GenericCard;
 import type.celleditors.SectionEditor;
 import type.sectiontype.GenericSection;
+import uicontrols.FxNotify;
 import uicontrols.SceneCntl;
 import uicontrols.UIColors;
 
@@ -137,7 +138,7 @@ public class MathCard implements GenericTestType<MathCard> {
 
         calcButton.setOnAction(e -> {
             expression = p.getText();
-            calcButtonAction(expression, p);
+            calcButtonAction(expression, p, r);
         });
 
         return vBox;
@@ -172,7 +173,8 @@ public class MathCard implements GenericTestType<MathCard> {
     @Override
     public int getTestType() {
         // 2048
-        return 0b0000100000000000;
+        return 0b0000000000010000;
+        //return 0b0000100000000000;
     }
 
     @Override
@@ -294,41 +296,28 @@ public class MathCard implements GenericTestType<MathCard> {
 
     // Calc button, EncryptedUser may test input for answer, Tests input for incorrect
     // answer and outputs error message.
-    public void calcButtonAction(String expression, SectionEditor editor) {
-
+    private void calcButtonAction(String expression, SectionEditor uEditor, SectionEditor lEditor) {
         // Parses the expresssion
         parser = new DijkstraParser(expression);
 
-        if(parser.isInvalidInput())
-        {
-
+        if (DijkstraParser.isInvalidInput()) {
             // Insert a temporary error message into the
             // text area
+
             StringBuilder sb = new StringBuilder();
             sb.append(expression);
             sb.append("\n\n " + parser.getErrorMessage());
-            editor.setText(sb.toString());
-            editor.tCell.getTextArea().setEditable(false);
-            editor.setStyleError();
-            // After a delay, return the textArea back
-            // to the original expression.
-            EventHandler<ActionEvent> eventHandler = e ->
-            {
-                editor.setText(expression);
-                editor.tCell.getTextArea().setEditable(true);
-                editor.setStyleNormal();
-            };
+//            FxNotify.notificationError("", " Hmmmm! " + sb, Pos.CENTER, 15,
+//                    "emojis/Flash_headexplosion_60.png", FlashMonkeyMain.getPrimaryWindow());
 
-            Timeline animation = new Timeline(new KeyFrame(Duration.millis(5000), eventHandler));
-            animation.play();
-
+        } else {
+            StringBuilder sb = new StringBuilder(lEditor.getText());
+            sb.append("\n\nRESPONSE = ");
+            sb.append(parser.getResult());
+            sb.append("\n");
+            lEditor.setText(sb.toString());
         }
-
-        System.out.println("\n\t *~*~* Done parsing: *~*~*" );
-        System.out.println("Results: " + parser.getResult());
     }
-
-    /** ------------------------------------------------- **/
 
     @Override
     public void nextAnsButtAction()
