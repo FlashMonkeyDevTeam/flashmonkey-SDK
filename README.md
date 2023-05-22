@@ -2,11 +2,9 @@
 <br>
 <br>
 # FlashMonkey developer interface
-**FlashMonkey Proprietary**
-_Do not disclose outside of FlashMonkey Inc._
 
 
-This is the repository for the Patent Pending FlashMonkey intelligent study application. FlashMonkey is an interactive 
+This is the repository for the Patent Pending FlashMonkey Platform SDK. FlashMonkey is an interactive 
 and multi-media learning application developed by FlashMonkey Inc. 
 
 - Play Nice Rule -
@@ -34,8 +32,10 @@ Please document and report any issues to your supervisor.
 Note that setting up a Java Project for JavaFX after Java 11 is more complex than they were with previous Java SDK's. 
 JavaFX is no longer included in the SDK. JavaFX is an open-source project by OpenJFX https://www.openjfx.io
 
-Note: As of April 2021 we are using Java LTS 11 and JavaFX 14. Ask what version of JavafX and Java is being used if this
+Note: As of May 2023 we are using Java 20 and JavaFX 20. Ask what version of JavafX and Java is being used if this
 document is out of date. We are not using Modules, the project is "non-modular".  
+
+If using IntelliJ, Ensure that the project under File -> project structure -> platform settings -> java 20, and project settings is set to java 20
 
 **Helpful links**
 + Jetbrains blog as of 2021 under the get started with _JavaFX and Maven, non-modular_ 
@@ -66,30 +66,28 @@ password and username.
 3. Import the project
 
 4. Ensure the project is synchronized with Maven. Note that the local Maven repo is stored on your machine in the _".m2"_
-directory. The preceeding "." indicates it is a hidden directory and you will need to ensure you can access and see 
+directory. The preceding "." indicates it is a hidden directory and you will need to ensure you can access and see 
 hidden directories on your machine. Usually the _".m2"_ directory is in your user root directory. In my case, on a windows
 machine, it is in the _"C://users/me/.m2"_ 
 
 5. If the project is set up correctly.
 
-_Note: If the project does not run, you may need to add the Run Configuration as provided in the recommended 
-<a href="https://openjfx.io/openjfx-docs/#IDE-Intellij">link here.</a>_
-+ Note: that the archtype should not be needed. The POM is already provided in the Github download. 
-+ enter the following run configuration: 
---module-path (windows example) "C:\path\to\your\jdk\jdk-14.0.1" --add-modules javafx.controls,javafx.fxml,javafx.media,javafx.web,javafx.base
 
-![FlashMonkey logo](./readme_resources/addToRunCOnfig.PNG)
+
+
 
 6. To clean, compile, and run the project. This can be done with the Maven slideout on the far right side of the IDE.
-under -> Plugins -> clean:clean, then -> Plugins -> javafx -> javafx:compile then Plugins -> javafx > javafx:run. 
+under -> LifeCycle -> clean:clean, then -> Lifecycle -> compile. To then run, go to target package under project on the left side of intelliJ. Right click flashmonkey-sdk-1.4.8-shaded.jar and click run. 
+After running the jar for the first time, you may use the green arrow at the top of the IntelliJ IDE.  
 
 
-![FlashMonkey logo](./readme_resources/mavenMenuTree.PNG)
+![mavenMenuTree.png](./readme_resources/mavenMenuTree.png)
 
 <br>
 The end result as the project you should see:
 
-![FlashMonkey logo](./readme_resources/result.PNG)
+![first_scene.png](./readme_resources/first_scene.png)
+
 
 <br>
 <br>
@@ -105,6 +103,19 @@ _Play the video "GetStarted.mp4" to see where the flashMonkeyFile directory file
 It shows the functionality of creating a card, taking snapshots, and drawing on top of them. It also shows where the 
 files are saved. The application has changed as well as the file structure. This is a good start. The file is located in
 the readme_resources in the project file structure._  
+
+
+< historical, should not be needed >
+
+_Note: If the project does not run, you may need to add the Run Configuration as provided in the recommended
+<a href="https://openjfx.io/openjfx-docs/#IDE-Intellij">link here.</a>_
++ Note: that the archtype should not be needed. The POM is already provided in the Github download.
++ enter the following run configuration:
+  --module-path (windows example) "C:\path\to\your\jdk\jdk-14.0.1" --add-modules javafx.controls,javafx.fxml,javafx.media,javafx.web,javafx.base
+
+![FlashMonkey logo](./readme_resources/addToRunCOnfig.PNG)
+
+< end historical >
 
 
 **LEGAL**
