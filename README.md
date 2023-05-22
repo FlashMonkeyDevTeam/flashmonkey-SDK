@@ -3,15 +3,11 @@
 <br>
 # FlashMonkey developer interface
 
+Be sure to read the license under lincense.md
+
 
 This is the repository for the Patent Pending FlashMonkey Platform SDK. FlashMonkey is an interactive 
-and multi-media learning application developed by FlashMonkey Inc. 
-
-- Play Nice Rule -
-Before contributing or modifying another author's code, please inform them that you are modifying or modified their code. 
-
-<b>Bug Status</b>: Issues. There are no known issues with the SOFTWARE ENGINEERING INTERFACE - type-interface. 
-Please document and report any issues to your supervisor. 
+and multi-media learning application developed by FlashMonkey Inc.
 
 <b>OTHER:</b> Updating this document using MarkDown: https://www.markdownguide.org/basic-syntax
 
@@ -24,18 +20,15 @@ Please document and report any issues to your supervisor.
 <b>JavaFX references:</b> An excellent aggregation of JavaFX resources
 + https://github.com/mhrimaz/AwesomeJavaFX
 
-
 <br>
 <br>
 
 #Set up this project for Maven and JavaFX
-Note that setting up a Java Project for JavaFX after Java 11 is more complex than they were with previous Java SDK's. 
-JavaFX is no longer included in the SDK. JavaFX is an open-source project by OpenJFX https://www.openjfx.io
 
 Note: As of May 2023 we are using Java 20 and JavaFX 20. Ask what version of JavafX and Java is being used if this
 document is out of date. We are not using Modules, the project is "non-modular".  
 
-If using IntelliJ, Ensure that the project under File -> project structure -> platform settings -> java 20, and project settings is set to java 20
+If using IntelliJ, Ensure that the project under File -> project structure -> platform settings -> is set to java 20, and project settings is set to java 20
 
 **Helpful links**
 + Jetbrains blog as of 2021 under the get started with _JavaFX and Maven, non-modular_ 
@@ -60,8 +53,7 @@ you will need to provide the arguments for the Run Configuration show below.
 
 1. Set up a new project as a Maven Project.
 
-2. Connect the project to the FlashMonkey Inc Repo in GitHub using the instructions above. See your supervisor for access,
-password and username.
+2. Connect the project to the FlashMonkey Inc Repo in GitHub using the instructions above.
 
 3. Import the project
 
@@ -73,15 +65,16 @@ machine, it is in the _"C://users/me/.m2"_
 5. If the project is set up correctly.
 
 
-
-
-
 6. To clean, compile, and run the project. This can be done with the Maven slideout on the far right side of the IDE.
-under -> LifeCycle -> clean:clean, then -> Lifecycle -> compile. To then run, go to target package under project on the left side of intelliJ. Right click flashmonkey-sdk-1.4.8-shaded.jar and click run. 
-After running the jar for the first time, you may use the green arrow at the top of the IntelliJ IDE.  
+under -> LifeCycle -> clean:clean, then -> Lifecycle -> compile.  
 
 
 ![mavenMenuTree.png](./readme_resources/mavenMenuTree.png)
+
+
+7. To run the project for the first time. Go to target package under project on the left side of intelliJ. Right click flashmonkey-sdk-1.4.8-shaded.jar and click run. After running the jar for the first time, you may use the green arrow at the top of the IntelliJ IDE.
+
+![First time run.png](./readme_resources/First%20time%20run.png)
 
 <br>
 The end result as the project you should see:

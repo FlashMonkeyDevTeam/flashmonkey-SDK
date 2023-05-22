@@ -16,8 +16,6 @@
     <list default="true" id="1863d91f-0da9-467b-b2bd-446c55156f07" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme_resources/mavenMenuTree.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme_resources/result.PNG" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -586,6 +584,7 @@
       <workItem from="1684698585590" duration="13787000" />
       <workItem from="1684717828261" duration="17926000" />
       <workItem from="1684779198697" duration="3428000" />
+      <workItem from="1684782640126" duration="1792000" />
     </task>
     <task id="LOCAL-00001" summary="Creating deck search, &amp; several bug fixes">
       <created>1597019756650</created>
@@ -874,7 +873,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684781030923</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Update Readme.md">
+      <created>1684782818483</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1684782818483</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -897,7 +903,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="implementing DeckMarketPane. Select deck, and data from teaserPane" />
     <MESSAGE value="implementing DeckMarketPane. Progress on layout and formatting" />
     <MESSAGE value="implementing DeckMarketPane. completed cartBox update after adding a deck and changing from one deck to another." />
     <MESSAGE value="Integrating card processing for purchases" />
@@ -922,7 +927,8 @@
     <MESSAGE value="Fixed bug in deck save. Test study mode is working" />
     <MESSAGE value="updated to JavaFX 20 and Java 20" />
     <MESSAGE value="Removed license.txt. Using License.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed license.txt. Using License.md" />
+    <MESSAGE value="Update Readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Readme.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
