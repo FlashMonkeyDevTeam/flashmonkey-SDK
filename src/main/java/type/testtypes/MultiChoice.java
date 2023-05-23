@@ -209,6 +209,18 @@ public class MultiChoice implements GenericTestType<MultiChoice>
     }
 
     /**
+     * Processing on the SectionEditors. E.g. on the text area such as what is used on the FillnTheBlank card.
+     *
+     * @param flashList
+     * @param q         Upper SectionEditor
+     * @param a         Lower SectionEditor
+     */
+    @Override
+    public void doOnSave(ArrayList<FlashCardMM> flashList, SectionEditor q, SectionEditor a) {
+        /** stub */
+    }
+
+    /**
      * Sets bit 1 for Multi-Choice to true
      * All other bits set to 0
      * @return bitSet

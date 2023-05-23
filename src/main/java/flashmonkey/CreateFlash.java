@@ -986,6 +986,15 @@ public final class CreateFlash<C extends GenericCard> {
             // Check content and save, or give user
             // an error message. Respond based on user
             // choice.
+
+            if(editorU.getText().length() > 1) {
+                GenericTestType gT = entryComboBox.getValue().getTestType();
+                gT.doOnSave( creatorList, editorU, editorL);
+            }
+//            if(! editorL.getText().length() > 1) {
+//
+//            }
+
             int result = checkContent(editorU, editorL);
             LOGGER.debug("saveCard(...) param \"result\": <{}>", result);
 

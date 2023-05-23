@@ -231,6 +231,18 @@ public abstract class QandA implements GenericTestType<QandA> {
             public GenericTestType getTest() {
                 return QandATest.getInstance();
             }
+
+        /**
+         * Processing on the SectionEditors. E.g. on the text area such as what is used on the FillnTheBlank card.
+         *
+         * @param flashList
+         * @param q         Upper SectionEditor
+         * @param a         Lower SectionEditor
+         */
+        @Override
+        public void doOnSave(ArrayList<FlashCardMM> flashList, SectionEditor q, SectionEditor a) {
+
+        }
     }
 
     /**
@@ -240,19 +252,19 @@ public abstract class QandA implements GenericTestType<QandA> {
     public static class QandASession extends QandA
     {
 
-            /**
+            /*
              * The class instance for the singleton class
              */
             private static QandASession CLASS_INSTANCE;
 
-            /**
+            /*
              * Default constructor. Creates super/parent class
              */
             private QandASession() {
                 ReadFlash.getInstance().setMode('a');
             }
 
-            /**
+            /*
              * Provides only one instance of this class.
              * @return Returns an instance of the class
              */
@@ -263,12 +275,17 @@ public abstract class QandA implements GenericTestType<QandA> {
                 return CLASS_INSTANCE;
             }
 
-            /** ------ GETTERS ----- **/
+            /* ------ GETTERS ----- **/
 
             @Override
             public GenericTestType getTest() {
                 return new QandASession();
             }
+
+        @Override
+        public void doOnSave(ArrayList<FlashCardMM> flashList, SectionEditor q, SectionEditor a) {
+            /* stub */
+        }
     }
 
 

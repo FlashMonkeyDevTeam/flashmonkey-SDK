@@ -139,6 +139,11 @@ public class AIMode implements GenericTestType<AIMode>
         // stub
     }
 
+    @Override
+    public void doOnSave(ArrayList<FlashCardMM> flashList, SectionEditor q, SectionEditor a) {
+
+    }
+
 
     /*
     @Override

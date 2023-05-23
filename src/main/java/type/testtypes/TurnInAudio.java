@@ -101,5 +101,17 @@ public class TurnInAudio implements GenericTestType<TurnInAudio>
     public void reset() {
         // stub
     }
+
+    /**
+     * Processing on the SectionEditors. E.g. on the text area such as what is used on the FillnTheBlank card.
+     *
+     * @param flashList
+     * @param q         Upper SectionEditor
+     * @param a         Lower SectionEditor
+     */
+    @Override
+    public void doOnSave(ArrayList<FlashCardMM> flashList, SectionEditor q, SectionEditor a) {
+
+    }
 }
 

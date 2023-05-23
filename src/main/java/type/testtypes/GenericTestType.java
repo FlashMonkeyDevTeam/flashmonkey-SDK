@@ -125,6 +125,14 @@ public interface GenericTestType<A extends GenericTestType>
      */
     public abstract void reset();
 
+    /**
+     * Processing on the SectionEditors. E.g. on the text area such as what is used on the FillnTheBlank card.
+     * @param flashList
+     * @param q Upper SectionEditor
+     * @param a Lower SectionEditor
+     */
+    public abstract void doOnSave(ArrayList<FlashCardMM> flashList, SectionEditor q, SectionEditor a);
+
 
 
     //public abstract void nextQButtonAction();  THESE ARE IN READFLASH not in tests

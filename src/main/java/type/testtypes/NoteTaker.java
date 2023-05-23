@@ -145,5 +145,10 @@ public class NoteTaker implements GenericTestType<NoteTaker> {
         // stub
     }
 
+    @Override
+    public void doOnSave(ArrayList<FlashCardMM> flashList, SectionEditor q, SectionEditor a) {
+
+    }
+
 
 }

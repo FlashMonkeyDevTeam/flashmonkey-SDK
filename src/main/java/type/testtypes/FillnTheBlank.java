@@ -113,21 +113,7 @@ public class FillnTheBlank implements GenericTestType<FillnTheBlank>
 
         //editorU = new SectionEditor("Enter a question here", flashList.size(), 'U', gCard.getTextCell().getTextArea());
         //editorL = new SectionEditor("Enter the answer here", flashList.size(), 'L', gCard.getTextCell().getTextArea());
-        /***************************amirStart*******************************************/
-//        String userInput = q.getText();  // Assuming this method exists
-//        String[] parts = userInput.split("\\[|\\]");
-//
-//        textParts = new ArrayList<>(Arrays.asList(parts));
-//        isAnswer = new BitSet(textParts.size());
-//
-//        for (int i = 0; i < textParts.size(); i++) {
-//            if (i % 2 != 0) {  // If i is odd, this part is an answer
-//                isAnswer.set(i);
-//            }
-//        }
-//
-//        updateTexts();
-        /****************************amirEnd**************************************/
+
 
         vBox.getChildren().addAll(q.sectionHBox);
 
@@ -250,5 +236,28 @@ public class FillnTheBlank implements GenericTestType<FillnTheBlank>
     @Override
     public void reset() {
         // stub
+    }
+
+    @Override
+    public void doOnSave(ArrayList<FlashCardMM> flashList, SectionEditor q, SectionEditor a) {
+        /***************************amirStart*******************************************/
+        String userInput = q.getText();  // Assuming this method exists
+        String[] parts = userInput.split("\\[|\\]");
+
+        textParts = new ArrayList<>(Arrays.asList(parts));
+        isAnswer = new BitSet(textParts.size());
+
+        for (int i = 0; i < textParts.size(); i++) {
+            if (i % 2 != 0) {  // If i is odd, this part is an answer
+                isAnswer.set(i);
+            }
+        }
+
+
+
+        updateTexts();
+        /****************************amirEnd**************************************/
+
+        //a.setText();
     }
 }
