@@ -76,8 +76,10 @@ The intent of the Fair Developer and Fair Use License is to give authors recogni
 
 13. FlashMonkey Inc., if needed, may make changes to this license based upon legal needs and the need to make a correction to ensure its intent is protected. If FlashMonkey makes changes to this license to preserve its intent, authors agree that their works may be included in future releases of FlashMonkey.
 
+14. You grant FlashMonkey Inc permission to modify your code to ensure its compliance with safety, format changes, to correct errors, or to maintain compliance with laws, or institutional policies. FlashMonkey may charge an hourly fee to pay for engineering time to make these corrections. In these cases, you or your company will be provided an opportunity to correct the errors before we hire engineering to make the corrections. 
 
-14. DISCLAIMER OF WARRANTY.
+
+15. DISCLAIMER OF WARRANTY.
 
 COVERED CODE IS PROVIDED UNDER THIS LICENSE ON AN "AS IS" BASIS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE COVERED CODE IS FREE OF DEFECTS, MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE COVERED CODE IS WITH YOU. SHOULD ANY COVERED CODE PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL DEVELOPER OR ANY OTHER CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY SERVICING, REPAIR OR CORRECTION.
 
@@ -90,6 +92,7 @@ Changes and Edits:
 
 2023-05-21
 - Modified document to provide understanding of compensation when the marketplace is not fully created and to provide understanding of compensation if distribution is provided by a third party such as a learning institution. 
+- 19:24 EDT: Modified document to provide understanding on permission to modify code. Item 14. -Author: Stadelman 
 
 
 
