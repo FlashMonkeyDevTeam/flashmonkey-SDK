@@ -981,12 +981,14 @@ public final class CreateFlash<C extends GenericCard> {
          * @return
          */
         boolean saveCard(SectionEditor editorU, SectionEditor editorL) {
-    
+
+            LOGGER.debug("text area text: " + editorU.getText());
             // Check content and save, or give user
             // an error message. Respond based on user
             // choice.
             int result = checkContent(editorU, editorL);
             LOGGER.debug("saveCard(...) param \"result\": <{}>", result);
+
 
             int ret = statusResponse(result);
 
@@ -1017,7 +1019,7 @@ public final class CreateFlash<C extends GenericCard> {
             // update the listIdx
             listIdx++;
             // Save this card to the creator list
-                saveNewCardToCreator();
+            saveNewCardToCreator();
             // set the prompt
             editorU.styleToPrompt();
             editorU.setPrompt(makeQPrompt(listIdx));
@@ -1120,8 +1122,11 @@ public final class CreateFlash<C extends GenericCard> {
                 return 0;
             }
             // Is a single section card and card is complete.
-            if(getTestType().toString().contains("NoteTaker") && result == 3) {
-                return 1;
+            if(getTestType().toString().contains("NoteTaker")
+                || getTestType().toString().contains("FillnTheBlank")) {
+                if(result == 3) {
+                    return 1;
+                }
             }
             // Card is double section and complete
             if(result == 7) {
@@ -1161,6 +1166,7 @@ public final class CreateFlash<C extends GenericCard> {
             }
             // Is there text in the upper editor?
             if (! editorU.getText().isEmpty()) {
+                System.out.println("upper text area = " + editorU.getText());
                 //stat set bit 2
                 stat |= (2);
             }

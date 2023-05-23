@@ -193,7 +193,6 @@ public class SectionEditor
         this.snapShotBtn = SNAPSHOT.get();
         this.clearBtn = CLEAR_TEXT.get();
         this.cameraBtn = CAMERA.get();
-        
     }
 
     /* ------------------------------------------------------- **/
@@ -215,10 +214,6 @@ public class SectionEditor
         shapesFileName = null;
         mediaFileName = null;
         rightPane = new Pane();
-
-        //if(edPopup == null) {
-        //    edPopup = ShapesEditorPopup.getInstance();
-        //}
         
         this.tCell       = new TextCell();
         this.sectionHBox = new HBox();
@@ -1080,7 +1075,6 @@ public class SectionEditor
      * @param parentPane
      */
     protected void drawpadBtnAction(Pane parentPane) {
-        
         this.rightPane.setMinWidth(100);
         this.rightPane.setMaxWidth(100);
         this.rightPane.setMinHeight(100);

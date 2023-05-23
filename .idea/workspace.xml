@@ -14,8 +14,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1863d91f-0da9-467b-b2bd-446c55156f07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/qww_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flashmonkey/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flashmonkey/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/type/celleditors/DrawTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/type/celleditors/DrawTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/type/celleditors/SectionEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/type/celleditors/SectionEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/type/celltypes/MediaPopUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/type/celltypes/MediaPopUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/type/sectiontype/DoubleCellSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/type/sectiontype/DoubleCellSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/type/testtypes/FillnTheBlank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/type/testtypes/FillnTheBlank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/type/testtypes/GenericTestType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/type/testtypes/GenericTestType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/type/testtypes/MathCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/type/testtypes/MathCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/type/testtypes/NoteTaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/type/testtypes/NoteTaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/type/tools/calculator/DijkstraParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/type/tools/calculator/DijkstraParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/type/tools/calculator/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/type/tools/calculator/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/Answer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/CreateFlash$CardSaver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/CreateFlash$CardSaver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/CreateFlash$TestMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/CreateFlash$TestMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flashmonkey/CreateFlash.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flashmonkey/CreateFlash.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/celleditors/DrawTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/celleditors/DrawTools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/celleditors/SectionEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/celleditors/SectionEditor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/celltypes/MediaPopUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/celltypes/MediaPopUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/sectiontype/DoubleCellSection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/sectiontype/DoubleCellSection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/FillnTheBlank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/FillnTheBlank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/MathCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/MathCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/testtypes/NoteTaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/testtypes/NoteTaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/DijkstraParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/DijkstraParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type/tools/calculator/Operator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,20 +119,20 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Me/IdeaProjects/flashmonkey-betaB/src/main/resources/css/buttons.css&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/Me/IdeaProjects/flashmonkey-betaB/src/main/resources/css/buttons.css&quot;,
-    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Users/Me/IdeaProjects/flashmonkey-betaB/src/main/resources/image&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Me/IdeaProjects/flashmonkey-developer-interface/src/main/java/type/testtypes/FillnTheBlank.java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "two.files.diff.last.used.file": "C:/Users/Me/IdeaProjects/flashmonkey-developer-interface/src/main/java/type/testtypes/FillnTheBlank.java",
+    "two.files.diff.last.used.folder": "C:/Users/Me/IdeaProjects/flashmonkey-betaB/src/main/resources/image"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Me\IdeaProjects\flashmonkey-developer-interface\readme_resources" />
@@ -584,7 +630,7 @@
       <workItem from="1684698585590" duration="13787000" />
       <workItem from="1684717828261" duration="17926000" />
       <workItem from="1684779198697" duration="3428000" />
-      <workItem from="1684782640126" duration="1792000" />
+      <workItem from="1684782640126" duration="25144000" />
     </task>
     <task id="LOCAL-00001" summary="Creating deck search, &amp; several bug fixes">
       <created>1597019756650</created>
@@ -880,7 +926,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684782818483</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Update Readme.md">
+      <created>1684784938692</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1684784938692</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1013,6 +1066,105 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/type/tools/calculator/DijkstraParser.java</url>
+          <line>108</line>
+          <properties class="type.tools.calculator.DijkstraParser" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/type/tools/calculator/DijkstraParser.java</url>
+          <line>115</line>
+          <properties class="type.tools.calculator.DijkstraParser" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/type/tools/calculator/DijkstraParser.java</url>
+          <line>151</line>
+          <properties class="type.tools.calculator.DijkstraParser" method="evaluate">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/type/tools/calculator/DijkstraParser.java</url>
+          <line>176</line>
+          <properties class="type.tools.calculator.DijkstraParser" method="execute">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/type/tools/calculator/DijkstraParser.java</url>
+          <line>227</line>
+          <properties class="type.tools.calculator.DijkstraParser" method="parseStrExpression">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/type/tools/calculator/DijkstraParser.java</url>
+          <line>316</line>
+          <properties class="type.tools.calculator.DijkstraParser" method="parseIntoRPN">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/type/tools/calculator/DijkstraParser.java</url>
+          <line>378</line>
+          <properties class="type.tools.calculator.DijkstraParser" method="getOperator">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/type/testtypes/NoteTaker.java</url>
+          <line>74</line>
+          <properties class="type.testtypes.NoteTaker" method="getTEditorPane">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/type/sectiontype/SingleCellSection.java</url>
+          <line>93</line>
+          <properties class="type.sectiontype.SingleCellSection" method="sectionView">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/type/sectiontype/SingleCellSection.java</url>
+          <line>191</line>
+          <properties class="type.sectiontype.SingleCellSection" method="sectionView">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/type/sectiontype/DoubleCellSection.java</url>
+          <line>40</line>
+          <properties class="type.sectiontype.DoubleCellSection" method="sectionView">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="290" />
         </line-breakpoint>
         <breakpoint type="java-exception">
           <properties class="java.lang.AssertionError" package="java.lang" />
@@ -1157,6 +1309,126 @@
           <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/ReadFlash.java</url>
           <line>620</line>
           <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/type/testtypes/MathCard.java</url>
+          <line>303</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/type/testtypes/MathCard.java</url>
+          <line>307</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/type/testtypes/MathCard.java</url>
+          <line>308</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/type/testtypes/MathCard.java</url>
+          <line>309</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/type/tools/calculator/DijkstraParser.java</url>
+          <line>230</line>
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java</url>
+          <line>1054</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java</url>
+          <line>1053</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java</url>
+          <line>1056</line>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java</url>
+          <line>1055</line>
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java</url>
+          <line>1057</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java</url>
+          <line>1058</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java</url>
+          <line>1060</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java</url>
+          <line>1061</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/type/testtypes/FillnTheBlank.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/type/sectiontype/DoubleCellSection.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java</url>
+          <line>1124</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java</url>
+          <line>1126</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java</url>
+          <line>1127</line>
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java</url>
+          <line>1128</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java</url>
+          <line>422</line>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java</url>
+          <line>423</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java</url>
+          <line>424</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java</url>
+          <line>1341</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/flashmonkey/CreateFlash.java</url>
+          <line>1125</line>
+          <option name="timeStamp" value="308" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -631,9 +631,6 @@ public class DrawTools<T extends GenericShape<T>> //extends SectionEditor //impl
     }
 
 
-
-
-
     public void releaseMouse() {
         overlayScene.setCursor(Cursor.DEFAULT);
         overlayScene.setOnMousePressed(null);

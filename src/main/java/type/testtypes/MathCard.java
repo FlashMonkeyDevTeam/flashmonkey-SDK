@@ -113,7 +113,8 @@ public class MathCard implements GenericTestType<MathCard> {
 
 
     /**
-     * Builds the Test Editor Pane for this card
+     * Builds the Test Editor Pane for this card. This is primarily used for the visual
+     * layout, buttons, etc. Not generally used for computational/business work.
      * @param flashList
      * @param p The formula for the math/Algebra/Trig/Calc problem
      * @param r The response when the EncryptedUser.EncryptedUser gets the answer wrong or correct.

@@ -42,7 +42,6 @@ public class DoubleCellSection //extends GenericSection
     {
         GenericCell gc = new GenericCell();
 
-       //System.out.println("DoubleCellSection.sectionView() ");
         int wd = SceneCntl.getCenterWd();
         int ht = (int) CreateFlash.getInstance().getMasterPane().getHeight();
         // text cell
@@ -52,18 +51,12 @@ public class DoubleCellSection //extends GenericSection
         rightCell = gc.cellFactory(type, rightCell, SceneCntl.getRightCellWd(), SceneCntl.getCellHt(), false, fileName);
         rightCell.setMinWidth(SceneCntl.getRightCellWd());
 
-//        HBox.setHgrow(leftCell, Priority.ALWAYS);
-
-       //System.out.println("DoubleCell.sectionView filename: image = " + fileName[0] + "; shapes = " +fileName[1]);
-       //System.out.println("DoubleCell.sectionView type: " + type);
         sectionHBox.getChildren().addAll(leftCell, rightCell);
-        //sectionHBox.setMaxSize(Double.MAX_VALUE, Double.MAX_VALUE);
 
         // Set the initial section height
         double no = SceneCntl.calcCenterHt(30, 214, FlashMonkeyMain.getWindow().getHeight());
         sectionHBox.setPrefHeight(no / numHSections);
         leftCell.setPrefHeight(no / numHSections);
-
         leftCell.setPrefWidth(FlashMonkeyMain.getWindow().getWidth() - 124);
 
         // RESPONSIVE SIZING for width and height

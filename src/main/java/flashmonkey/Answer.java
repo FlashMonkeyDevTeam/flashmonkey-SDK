@@ -51,7 +51,6 @@ public abstract class Answer implements Serializable, Comparable
     // as the anchor for a flashCard in flashList during a session.
     // It is set to it's index number during build tree.
     private int aNumber;
-    
     /*** ARRAY ***/
     private ArrayList<Integer> answerSet; // a list of possible questions that 
                                           // this could be an answer for.

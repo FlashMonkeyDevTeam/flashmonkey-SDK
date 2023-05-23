@@ -1,9 +1,9 @@
 ![FlashMonkey logo](./readme_resources/horiz_logo_blue_78x500.png)
 <br>
 <br>
-# FlashMonkey developer interface
+# FlashMonkey SDK
 
-Be sure to read the license under lincense.md
+<b>Be sure to read the license under lincense.md</b>
 
 
 This is the repository for the Patent Pending FlashMonkey Platform SDK. FlashMonkey is an interactive 

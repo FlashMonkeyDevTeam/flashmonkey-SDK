@@ -89,33 +89,6 @@ public class MediaPopUp {
         window.show();
     }
 
-    /**
-     * Popup with Image:
-     * <p>Creates a popUp Scene with the image
-     * provided in the parameter</p>
-     *
-     * @param view The unscaled imageView.
-     */
-/*    public void popUpScene(ImageView view) {
-
-       //System.out.println( "called popUP using (ImageView view) ");
-
-        double wd = view.getImage().getWidth() + 4;
-        double ht = view.getImage().getHeight() + 4;
-        StackPane pane = new StackPane();
-        pane.setMaxWidth(screenWt - 50);
-        pane.setMaxHeight(screenHt - 100);
-        pane.setPrefSize(wd, ht);
-        pane.getChildren().add(view);
-        Scene scene = new Scene(pane, wd, ht);
-
-        getInstance();
-        window.setScene(scene);
-        window.setResizable(false);
-        window.show();
-    }
-
- */
 
     /**
      * Popup with shapes only:

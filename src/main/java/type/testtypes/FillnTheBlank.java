@@ -12,6 +12,7 @@ import flashmonkey.FlashCardMM;
 import type.sectiontype.GenericSection;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.BitSet;
 
 
@@ -38,13 +39,44 @@ public class FillnTheBlank implements GenericTestType<FillnTheBlank>
     /**
      * Default No-Args Constructor
      */
+    /***************************amirStart**********************/
+    private ArrayList<String> textParts;
+    private BitSet isAnswer;
+    private String questionText;
+    private String answerText;
+    private int currentAnswerIndex = -1;
+
+    // This method will be called whenever the FillInTheBlank object is updated with a new question.
+    // We will assume that it is called in the getTEditorPane method after processing the user input.
+    private void updateTexts() {
+        StringBuilder questionBuilder = new StringBuilder();
+        StringBuilder answerBuilder = new StringBuilder();
+
+        for (int i = 0; i < textParts.size(); i++) {
+            if (isAnswer.get(i)) {
+                questionBuilder.append("[___]");
+                answerBuilder.append(textParts.get(i));
+            } else {
+                questionBuilder.append(textParts.get(i));
+            }
+
+            // To add spaces between words, except at the end
+            if (i < textParts.size() - 1) {
+                questionBuilder.append(" ");
+                answerBuilder.append(" ");
+            }
+        }
+
+        questionText = questionBuilder.toString();
+        answerText = answerBuilder.toString();
+    }
+
+    /************************amirEnd*****************************/
     public FillnTheBlank() {/* empty constructor */}
-    
-    
-    
+
     @Override
     public boolean isDisabled() {
-        return true;
+        return false;
     }
 
     /**
@@ -81,6 +113,22 @@ public class FillnTheBlank implements GenericTestType<FillnTheBlank>
 
         //editorU = new SectionEditor("Enter a question here", flashList.size(), 'U', gCard.getTextCell().getTextArea());
         //editorL = new SectionEditor("Enter the answer here", flashList.size(), 'L', gCard.getTextCell().getTextArea());
+        /***************************amirStart*******************************************/
+//        String userInput = q.getText();  // Assuming this method exists
+//        String[] parts = userInput.split("\\[|\\]");
+//
+//        textParts = new ArrayList<>(Arrays.asList(parts));
+//        isAnswer = new BitSet(textParts.size());
+//
+//        for (int i = 0; i < textParts.size(); i++) {
+//            if (i % 2 != 0) {  // If i is odd, this part is an answer
+//                isAnswer.set(i);
+//            }
+//        }
+//
+//        updateTexts();
+        /****************************amirEnd**************************************/
+
         vBox.getChildren().addAll(q.sectionHBox);
 
         return vBox;
@@ -162,19 +210,41 @@ public class FillnTheBlank implements GenericTestType<FillnTheBlank>
 
     @Override
     public void ansButtonAction() {
+        /**************************amirStart*******************************/
+        // Go through each part of the text
+        for (int i = 0; i < textParts.size(); i++) {
+            // If this part is an answer, print it
+            if (isAnswer.get(i)) {
+                System.out.println(textParts.get(i));  // Display the answer
+            }
+        }
+
+        /**************************amirEnd*********************************/
         // stub
     }
 
     @Override
     public void nextAnsButtAction()
     {
+        /**************************amirStart*********************************/
+        // Find the index of the next answer in the list
+        int nextAnswerIndex = isAnswer.nextSetBit(currentAnswerIndex + 1);
+
+        // If there is a next answer, update currentAnswerIndex and show the answer
+        if (nextAnswerIndex >= 0) {
+            currentAnswerIndex = nextAnswerIndex;
+            System.out.println(textParts.get(currentAnswerIndex));  // Display the answer
+        } else {
+            System.out.println("No more answers.");  // Or handle the end of answers in some other way
+        }
+        /****************************amirEnd***************************************/
         // stub
     }
 
     @Override
     public void prevAnsButtAction()
     {
-        // stub
+        //stub
     }
 
     @Override

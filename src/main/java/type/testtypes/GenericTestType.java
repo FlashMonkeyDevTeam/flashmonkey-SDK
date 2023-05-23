@@ -55,7 +55,8 @@ public interface GenericTestType<A extends GenericTestType>
     public abstract boolean isDisabled();
     
     /**
-     * Returns the Test creator Pane for each test type.
+     * Builds the Editor Pane for this card. This is primarily used for the visual
+     * layout, buttons, etc. Not generally used for computational/business work.
      * @param flashList
      * @param q
      * @param a

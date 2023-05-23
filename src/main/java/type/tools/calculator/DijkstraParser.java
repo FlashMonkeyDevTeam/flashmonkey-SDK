@@ -175,8 +175,6 @@ public class DijkstraParser implements OperatorInterface{
      * @return returns the solution
      */
     public double execute(ArrayQueue outQ) {
-
-       //System.out.println("\n *!*!* in Parser.execute() *!*!* ");
         Stack<Double> resultStack = new Stack<>();
 
         double x;
@@ -184,44 +182,25 @@ public class DijkstraParser implements OperatorInterface{
         while ( ! outQ.isEmpty() ) {
 
             if(outQ.peek().getClass().isInstance(1.1)) {
-
-               //System.out.println("\n\t inserting: " + outQ.peek() + " into resultStack");
-
-                // queue element is a number
                 resultStack.push((double) outQ.poll());
 
             } else {
-                // queue element is an operator
-
-               //System.out.println("\n\t OPERATOR: " + ((ExpNode) outQ.peek()).getOp().getSymbol());
-
                 if( ! ((ExpNode) outQ.peek()).getOp().isUnaryOp() ) {
-
                     y = resultStack.pop();
                     x = resultStack.pop();
                     ExpNode exp = (ExpNode) outQ.poll();
 
                     double result = exp.getOp().execute(exp, x, y);
 
-                   //System.out.println("binary operator inserting: " + result + " into resultStack");
-                   //System.out.println("ResultStack size is now: " + resultStack.size());
-
                     resultStack.push(result);
 
                 } else {
-
-                   //System.out.println(" !~!~! in DijkstraParser execute() !~!~! \n " +
-                   //         "symbol is " + ((ExpNode) outQ.peek()).getOp().getSymbol());
-
                     x = resultStack.pop();
                     ExpNode exp = (ExpNode) outQ.poll();
 
                     double result = exp.getOp().execute(exp, x, 0);
 
                     resultStack.push(result);
-
-                   //System.out.println("unary operator inserting: " + result + " into resultStack");
-                   //System.out.println("ResultStack size is now: " + resultStack.size());
                 }
             }
         }

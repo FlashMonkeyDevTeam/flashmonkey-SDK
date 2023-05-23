@@ -44,7 +44,6 @@ public enum Operator implements OperatorInterface {
     MULTIPLY ("*", 2) {
         @Override
         public double execute(ExpNode exp, double x, double y) {
-
            //System.out.println("Executing \"*\"");
             exp.setExpSolved("MULTIPLY: " + x + " " + this.getSymbol() + " " + y + " = " + (x * y));
            //System.out.println(exp.getExpSolved());

@@ -104,7 +104,6 @@ public class NoteTaker implements GenericTestType<NoteTaker> {
 
     @Override
     public GenericTestType getTest() {
-
         return new NoteTaker();
     }
 
